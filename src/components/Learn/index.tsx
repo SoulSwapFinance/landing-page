@@ -65,8 +65,7 @@ export default function Learn() {
             <img src={caret} alt="learn" />
           </div>
           <div className={styles.cardText}>
-            For more information regarding SoulSwap tokenomics (including
-            emissions, vesting), click here.
+            For more info regarding our tokenomics (emissions and allocation), click here.
           </div>
         </a>
         <a
@@ -82,7 +81,7 @@ export default function Learn() {
             <img src={caret} alt="learn" />
           </div>
           <div className={styles.cardText}>
-            Our documents contain everything you need to know about SoulSwap, as
+            Our docs contain all you need to know about SoulSwap, as
             well as some technical support.
           </div>
         </a>
@@ -99,8 +98,8 @@ export default function Learn() {
             <img src={caret} alt="learn" />
           </div>
           <div className={styles.cardText}>
-            For more information on progress, and to understand SoulSwap’s goals
-            and vision, check out the roadmap.
+            Monitor our progress live and see our goals
+            and vision. View our roadmap.
           </div>
         </a>
       </div>
