@@ -51,18 +51,23 @@ export default function Headline() {
     <div className={styles.container}>
       <div style={{ maxWidth: '600px' }}>
         <div className={styles.title}>
-          Communicate with the{' '}
-          <span className={styles.otherSide}>other side</span>
+          Communicate with the Other Side...
+          {/* {' '} */}
+          {/* <span className={styles.otherSide}>other side</span> */}
         </div>
-        <div className={styles.subTitle}>
+        {/* <div className={styles.subTitle}>
           via our multi-chain exchange with cross-chain liquidity mining. Share
           your $SOUL with us.
+        </div> */}
+        <div className={styles.subTitle}>
+        Soul builds upon the likes of Sushi, Uni, Compound, and Cake with
+        an innovative cross-chain rewards mechanism, DEX, atomic swaps, P2P lending, and so much more!
         </div>
         <div
           style={{ display: 'flex', alignItems: 'center', marginTop: '28px' }}
         >
           <a href="https://soul.sh" target="_blank" rel="noreferrer">
-            <div className={styles.CTA}>Launch App</div>
+            <div className={styles.CTA}>EXCHANGE</div>
           </a>
           <a
             href="https://docs.soulswap.finance/docs/"
@@ -73,7 +78,7 @@ export default function Headline() {
               className={styles.CTA}
               style={{ marginLeft: '24px', backgroundColor: 'transparent' }}
             >
-              Learn More
+              DOCS
             </div>
           </a>
         </div>
