@@ -1,10 +1,10 @@
 import { createUseStyles } from 'react-jss';
 import { Breakpoints } from '../../utils/utils';
+import FANTOM from './images/Fantom.png';
 import GRIM from './images/GrimFinance.png';
-import partner2 from './images/partner2.png';
-import partner3 from './images/partner3.png';
-import partner4 from './images/partner4.png';
-import partner5 from './images/partner5.png';
+import DEBANK from './images/DeBank.png';
+import LLAMA from './images/LLAMA.png';
+// import VFAT from './images/VFatTools.png';
 
 const useStyles = createUseStyles({
   container: { marginTop: '88px' },
@@ -47,53 +47,53 @@ export default function Partners() {
   const styles = useStyles();
   return (
     <div className={styles.container}>
-      <div className={styles.title}>Partners</div>
+      <div className={styles.title}>Partnerships and Listings</div>
       <div className={styles.cardsContainer}>
         <a
-          href="https://google.com"
+          href="https://projects.fantom.network/project-detail/6159de47d93a9411a5d0817b"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.card}
+        >
+          <img src={FANTOM} alt="Fantom Foundation" style={{ width: '28px' }} />
+          <div className={styles.partner}>Fantom Foundation</div>
+        </a>
+        <a
+          href="https://app.grim.finance/"
           target="_blank"
           rel="noreferrer"
           className={styles.card}
         >
           <img src={GRIM} alt="Grim Finance" style={{ width: '28px' }} />
-          <div className={styles.partner}>Partner 1</div>
+          <div className={styles.partner}>Grim Finance</div>
         </a>
         <a
-          href="https://google.com"
+          href="https://debank.com/profile/0xce6ccbb1edad497b4d53d829df491af70065ab5b"
           target="_blank"
           rel="noreferrer"
           className={styles.card}
         >
-          <img src={partner2} alt="partner" style={{ width: '28px' }} />
-          <div className={styles.partner}>Partner 2</div>
+          <img src={DEBANK} alt="DeBank" style={{ width: '28px' }} />
+          <div className={styles.partner}>DeBank Wallet</div>
         </a>
         <a
-          href="https://google.com"
+          href="https://defillama.com/protocol/soulswap"
           target="_blank"
           rel="noreferrer"
           className={styles.card}
         >
-          <img src={partner3} alt="partner" style={{ width: '28px' }} />
-          <div className={styles.partner}>Partner 3</div>
+          <img src={LLAMA} alt="DeFi Llama" style={{ width: '28px' }} />
+          <div className={styles.partner}>DeFi Llama</div>
         </a>
-        <a
-          href="https://google.com"
+        {/* <a
+          href="https://vfat.tools/fantom/soulswap/"
           target="_blank"
           rel="noreferrer"
           className={styles.card}
         >
-          <img src={partner4} alt="partner" style={{ width: '28px' }} />
-          <div className={styles.partner}>Partner 4</div>
-        </a>
-        <a
-          href="https://google.com"
-          target="_blank"
-          rel="noreferrer"
-          className={styles.card}
-        >
-          <img src={partner5} alt="partner" style={{ width: '28px' }} />
-          <div className={styles.partner}>Partner 5</div>
-        </a>
+          <img src={VFAT} alt="VFat Tools" style={{ width: '28px' }} />
+          <div className={styles.partner}>VFatTools</div>
+        </a> */}
       </div>
     </div>
   );
