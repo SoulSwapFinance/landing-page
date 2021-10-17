@@ -18,7 +18,7 @@ export default function Footer() {
           style={{ display: 'flex', alignItems: 'center', marginTop: '20px' }}
         >
           <a
-            href="https://twitter.com/soulswapfinance"
+            href="https://twitter.com/SoulSwapFinance"
             target="_blank"
             rel="noreferrer"
           >

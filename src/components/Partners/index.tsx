@@ -1,6 +1,6 @@
 import { createUseStyles } from 'react-jss';
 import { Breakpoints } from '../../utils/utils';
-import partner1 from './images/partner1.png';
+import GRIM from './images/GrimFinance.png';
 import partner2 from './images/partner2.png';
 import partner3 from './images/partner3.png';
 import partner4 from './images/partner4.png';
@@ -55,7 +55,7 @@ export default function Partners() {
           rel="noreferrer"
           className={styles.card}
         >
-          <img src={partner1} alt="partner" style={{ width: '28px' }} />
+          <img src={GRIM} alt="Grim Finance" style={{ width: '28px' }} />
           <div className={styles.partner}>Partner 1</div>
         </a>
         <a

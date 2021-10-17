@@ -23,23 +23,28 @@ const useStyles = createUseStyles({
     width: '128px',
     height: '128px',
     padding: '16px',
+
   },
   cardImage: {
     width: '100%',
+    alignItems: 'center',
   },
   cardContent: {
     display: 'flex',
     flexDirection: 'column',
+    alignItems: 'center',
     justifyContent: 'space-between',
   },
   cardTitle: {
     color: 'white',
     marginTop: '20px',
+    textAlign: 'center',
     fontWeight: 'bold',
     fontSize: '24px',
   },
   cardText: {
     marginTop: '8px',
+    textAlign: 'center',
     fontSize: '14px',
     maxWidth: '75%',
   },
@@ -47,7 +52,6 @@ const useStyles = createUseStyles({
     marginTop: '40px',
     color: 'white',
     padding: '12px 28px',
-    textAlign: 'center',
     justifyContent: 'center',
     display: 'flex',
     alignItems: 'center',
@@ -64,6 +68,7 @@ const useStyles = createUseStyles({
   },
   title: {
     color: 'white',
+    // textAlign: 'center',
     fontWeight: 'bolder',
     fontSize: '28px',
   },
@@ -71,7 +76,7 @@ const useStyles = createUseStyles({
     title: {
       fontSize: '40px',
     },
-    cardsContainer: { display: 'flex' },
+    cardsContainer: { display: 'flex', alignItems: 'center' },
     card: {
       width: '25%',
     },
@@ -82,7 +87,7 @@ export default function Features() {
   const styles = useStyles();
   return (
     <div className={styles.container}>
-      <div className={styles.title}>Visit the other side</div>
+      <div className={styles.title}>Our Soul Services...</div>
       <div className={styles.cardsContainer}>
         <div className={styles.card}>
           <div className={styles.cardContent}>
@@ -90,13 +95,13 @@ export default function Features() {
               <div className={styles.cardImageContainer}>
                 <img className={styles.cardImage} src={logo} alt="card" />
               </div>
-              <div className={styles.cardTitle}>AMM</div>
-              <div className={styles.cardText}>
-                Competitive rates, and multi-chain trading seamlessly.
-              </div>
+              <div className={styles.cardTitle}>Exchange</div>
+              {/* <div className={styles.cardText}>
+                Across chains.
+              </div> */}
             </div>
-            <a href="https://soul.sh" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>Trade Now</div>
+            <a href="https://soul.sh/exchange/swap?/exactInput&inputCurrency=FTM&&outputCurrency=0xe2fb177009ff39f52c0134e8007fa0e4baacbd07" target="_blank" rel="noreferrer">
+              <div className={styles.CTA}>TRADE</div>
             </a>
           </div>
         </div>
@@ -106,13 +111,13 @@ export default function Features() {
               <div className={styles.cardImageContainer}>
                 <img className={styles.cardImage} src={logo2} alt="card" />
               </div>
-              <div className={styles.cardTitle}>Yield Farms</div>
-              <div className={styles.cardText}>
-                Earn crypto with our single asset pools or liquidity pools.
-              </div>
+              <div className={styles.cardTitle}>Summon</div>
+              {/* <div className={styles.cardText}>
+                With liquidity.
+              </div> */}
             </div>
-            <a href="https://soul.sh" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>Start Earning</div>
+            <a href="https://soul.sh/farm" target="_blank" rel="noreferrer">
+              <div className={styles.CTA}>SUMMON</div>
             </a>
           </div>
         </div>
@@ -122,13 +127,13 @@ export default function Features() {
               <div className={styles.cardImageContainer}>
                 <img className={styles.cardImage} src={logo} alt="card" />
               </div>
-              <div className={styles.cardTitle}>Summon</div>
-              <div className={styles.cardText}>
-                Placeholder text for summoning.
-              </div>
+              <div className={styles.cardTitle}>Seance</div>
+              {/* <div className={styles.cardText}>
+                Soul for Seance.
+              </div> */}
             </div>
-            <a href="https://soul.sh" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>Join Now</div>
+            <a href="https://soul.sh/stake" target="_blank" rel="noreferrer">
+              <div className={styles.CTA}>STAKE</div>
             </a>
           </div>
         </div>
@@ -138,13 +143,13 @@ export default function Features() {
               <div className={styles.cardImageContainer}>
                 <img className={styles.cardImage} src={logo2} alt="card" />
               </div>
-              <div className={styles.cardTitle}>Bridge</div>
-              <div className={styles.cardText}>
-                Placeholder text for the bridge.
-              </div>
+              <div className={styles.cardTitle}>Lend</div>
+              {/* <div className={styles.cardText}>
+                With friends.
+              </div> */}
             </div>
             <a href="https://soul.sh" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>Enter App</div>
+              <div className={styles.CTA}>SOON...</div>
             </a>
           </div>
         </div>
