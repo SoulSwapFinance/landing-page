@@ -12,7 +12,7 @@ const useStyles = createUseStyles({
     width: 'calc(100% - 24px)',
     marginRight: '24px',
     marginBottom: '24px',
-    border: '1px solid rgba(255,255,255,0.5)',
+    border: '1px solid #D198F9',
     padding: '12px 15px',
     borderRadius: '8px',
     display: 'flex',
@@ -30,7 +30,7 @@ const useStyles = createUseStyles({
   },
   cardsContainer: { marginTop: '40px', display: 'block', marginRight: '-24px' },
   title: {
-    color: 'white',
+    color: '#D198F9',
     fontWeight: 'bolder',
     fontSize: '28px',
   },

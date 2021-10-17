@@ -13,7 +13,7 @@ const useStyles = createUseStyles({
     padding: '24px',
     maxWidth: '100vw',
     margin: 'auto',
-    color: '#BFBFBF',
+    color: '#D198F9',
   },
   [`@media (min-width: ${Breakpoints.sm}px)`]: {
     container: { padding: '40px', maxWidth: '1440px' },
