@@ -51,7 +51,7 @@ export default function Headline() {
     <div className={styles.container}>
       <div style={{ maxWidth: '600px' }}>
         <div className={styles.title}>
-          Communicate with the Other Side...
+          the Other Side...
           {/* {' '} */}
           {/* <span className={styles.otherSide}>other side</span> */}
         </div>

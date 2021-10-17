@@ -87,7 +87,7 @@ export default function Features() {
   const styles = useStyles();
   return (
     <div className={styles.container}>
-      <div className={styles.title}>Our Soul Services...</div>
+      <div className={styles.title}>Our Soul Services</div>
       <div className={styles.cardsContainer}>
         <div className={styles.card}>
           <div className={styles.cardContent}>
@@ -95,13 +95,13 @@ export default function Features() {
               <div className={styles.cardImageContainer}>
                 <img className={styles.cardImage} src={SEANCE} alt="card" />
               </div>
-              <div className={styles.cardTitle}>SoulSwap</div>
-              {/* <div className={styles.cardText}>
+              {/* <div className={styles.cardTitle}>Swap</div>
+              <div className={styles.cardText}>
                 Across chains.
               </div> */}
             </div>
             <a href="https://soul.sh/exchange/swap?/exactInput&inputCurrency=FTM&&outputCurrency=0xe2fb177009ff39f52c0134e8007fa0e4baacbd07" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>TRADE</div>
+              <div className={styles.CTA}>TRADE TOKENS</div>
             </a>
           </div>
         </div>
@@ -111,13 +111,29 @@ export default function Features() {
               <div className={styles.cardImageContainer}>
                 <img className={styles.cardImage} src={SOUL} alt="card" />
               </div>
-              <div className={styles.cardTitle}>SoulPower</div>
-              {/* <div className={styles.cardText}>
+              {/* <div className={styles.cardTitle}>Earn</div>
+              <div className={styles.cardText}>
                 With liquidity.
               </div> */}
             </div>
             <a href="https://soul.sh/farm" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>SUMMON</div>
+              <div className={styles.CTA}>EARN FEES</div>
+            </a>
+          </div>
+        </div>
+        <div className={styles.card}>
+          <div className={styles.cardContent}>
+            <div>
+              <div className={styles.cardImageContainer}>
+                <img className={styles.cardImage} src={SOUL} alt="card" />
+              </div>
+              {/* <div className={styles.cardTitle}>Souls</div>
+              <div className={styles.cardText}>
+                With liquidity.
+              </div> */}
+            </div>
+            <a href="https://soul.sh/farm" target="_blank" rel="noreferrer">
+              <div className={styles.CTA}>SUMMON SOUL</div>
             </a>
           </div>
         </div>
@@ -127,13 +143,13 @@ export default function Features() {
               <div className={styles.cardImageContainer}>
                 <img className={styles.cardImage} src={SEANCE} alt="card" />
               </div>
-              <div className={styles.cardTitle}>SeanceCircle</div>
-              {/* <div className={styles.cardText}>
+              {/* <div className={styles.cardTitle}>Seances</div>
+              <div className={styles.cardText}>
                 Soul for Seance.
               </div> */}
             </div>
             <a href="https://soul.sh/stake" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>STAKE</div>
+              <div className={styles.CTA}>STAKE SEANCE</div>
             </a>
           </div>
         </div>
@@ -143,13 +159,13 @@ export default function Features() {
               <div className={styles.cardImageContainer}>
                 <img className={styles.cardImage} src={SOUL} alt="card" />
               </div>
-              <div className={styles.cardTitle}>SouLend</div>
-              {/* <div className={styles.cardText}>
+              {/* <div className={styles.cardTitle}>Outcasts</div>
+              <div className={styles.cardText}>
                 With friends.
               </div> */}
             </div>
-            <a href="https://soul.sh" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>SOON...</div>
+            <a href="https://view.monday.com/1765008420-f675b7885c5b411a6b49ba3f18b41cb8?r=use1" target="_blank" rel="noreferrer">
+              <div className={styles.CTA}>UP NEXT</div>
             </a>
           </div>
         </div>
