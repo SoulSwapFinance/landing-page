@@ -4,7 +4,7 @@ import FANTOM from './images/Fantom.png';
 import GRIM from './images/GrimFinance.png';
 import DEBANK from './images/DeBank.png';
 import LLAMA from './images/LLAMA.png';
-// import VFAT from './images/VFatTools.png';
+import GECKO from './images/CoinGecko.png';
 
 const useStyles = createUseStyles({
   container: { marginTop: '88px' },
@@ -30,7 +30,7 @@ const useStyles = createUseStyles({
   },
   cardsContainer: { marginTop: '40px', display: 'block', marginRight: '-24px' },
   title: {
-    color: '#D198F9',
+    color: '#FFF',
     fontWeight: 'bolder',
     fontSize: '28px',
   },
@@ -55,7 +55,7 @@ export default function Partners() {
           rel="noreferrer"
           className={styles.card}
         >
-          <img src={FANTOM} alt="Fantom Foundation" style={{ width: '28px' }} />
+          <img src={FANTOM} alt="Fantom Foundation" style={{ width: '32px' }} />
           <div className={styles.partner}>Fantom Foundation</div>
         </a>
         <a
@@ -64,7 +64,7 @@ export default function Partners() {
           rel="noreferrer"
           className={styles.card}
         >
-          <img src={GRIM} alt="Grim Finance" style={{ width: '28px' }} />
+          <img src={GRIM} alt="Grim Finance" style={{ width: '32px' }} />
           <div className={styles.partner}>Grim Finance</div>
         </a>
         <a
@@ -73,27 +73,27 @@ export default function Partners() {
           rel="noreferrer"
           className={styles.card}
         >
-          <img src={DEBANK} alt="DeBank" style={{ width: '28px' }} />
+          <img src={DEBANK} alt="DeBank" style={{ width: '32px' }} />
           <div className={styles.partner}>DeBank Wallet</div>
         </a>
         <a
-          href="https://defillama.com/protocol/soulswap"
+          href="https://defillama.com/protocol/SoulSwap"
           target="_blank"
           rel="noreferrer"
           className={styles.card}
         >
-          <img src={LLAMA} alt="DeFi Llama" style={{ width: '28px' }} />
+          <img src={LLAMA} alt="DeFi Llama" style={{ width: '32px' }} />
           <div className={styles.partner}>DeFi Llama</div>
         </a>
-        {/* <a
-          href="https://vfat.tools/fantom/soulswap/"
+        <a
+          href="https://www.coingecko.com/en/coins/soul-swap"
           target="_blank"
           rel="noreferrer"
           className={styles.card}
         >
-          <img src={VFAT} alt="VFat Tools" style={{ width: '28px' }} />
-          <div className={styles.partner}>VFatTools</div>
-        </a> */}
+          <img src={GECKO} alt="VFat Tools" style={{ width: '32px' }} />
+          <div className={styles.partner}>CoinGecko Data</div>
+        </a>
       </div>
     </div>
   );
