@@ -11,7 +11,7 @@ const useStyles = createUseStyles({
     marginRight: '24px',
     width: 'calc(100%-48px)',
     marginBottom: '24px',
-    padding: '32px 28px',
+    padding: '28px 24px',
     backgroundColor: '#D198F9',
     borderRadius: '8px',
     cursor: 'pointer',
@@ -27,7 +27,7 @@ const useStyles = createUseStyles({
   },
   cardText: {
     marginTop: '24px',
-    fontSize: '14px',
+    fontSize: '18px',
     color: '#222',
   },
   title: {
@@ -50,7 +50,7 @@ export default function Learn() {
   const styles = useStyles();
   return (
     <div className={styles.container}>
-      {/* <div className={styles.title}>Learn more</div> */}
+      <div className={styles.title}>Discover More</div>
       <div className={styles.cardsContainer}>
         <a
           href="https://docs.soulswap.finance/docs/tokenomics"
@@ -60,12 +60,12 @@ export default function Learn() {
         >
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <div style={{ color: '#222', fontWeight: 500, fontSize: '24px' }}>
-              Tokenomics
+              TOKENOMICS
             </div>
-            <img src={caret} alt="learn" />
+            {/* <img src={caret} alt="learn" /> */}
           </div>
           <div className={styles.cardText}>
-            For more info regarding our tokenomics (emissions and allocation), click here.
+            Learn our tokenomics, including our emissions rate and allocation of our rewards.
           </div>
         </a>
         <a
@@ -76,13 +76,12 @@ export default function Learn() {
         >
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <div style={{ color: '#222', fontWeight: 500, fontSize: '24px' }}>
-              Docs
+              DOCUMENTATION
             </div>
-            <img src={caret} alt="learn" />
+            {/* <img src={caret} alt="learn" /> */}
           </div>
           <div className={styles.cardText}>
-            Our docs contain all you need to know about SoulSwap, as
-            well as some technical support.
+            Discover all you need to know about SoulSwap and our products and services.
           </div>
         </a>
         <a
@@ -93,13 +92,13 @@ export default function Learn() {
         >
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <div style={{ color: '#222', fontWeight: 500, fontSize: '24px' }}>
-              Roadmap
+              ROADMAP
             </div>
-            <img src={caret} alt="learn" />
+            {/* <img src={caret} alt="learn" /> */}
           </div>
           <div className={styles.cardText}>
             Monitor our progress live and see our goals
-            and vision. View our roadmap.
+            and vision by viewing our live roadmap.
           </div>
         </a>
       </div>

@@ -47,7 +47,7 @@ export default function Partners() {
   const styles = useStyles();
   return (
     <div className={styles.container}>
-      <div className={styles.title}>Partnerships and Listings</div>
+      <div className={styles.title}>Partners and References</div>
       <div className={styles.cardsContainer}>
         <a
           href="https://projects.fantom.network/project-detail/6159de47d93a9411a5d0817b"
