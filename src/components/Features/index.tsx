@@ -59,7 +59,7 @@ const useStyles = createUseStyles({
     fontSize: '16px',
     lineHeight: '17px',
     cursor: 'pointer',
-    border: '1px solid #9c59d6',
+    border: '1px solid #D198F9',
     userSelect: 'none',
     transition: 'all 0.2s',
     '&:hover': {

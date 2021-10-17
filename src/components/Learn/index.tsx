@@ -12,7 +12,7 @@ const useStyles = createUseStyles({
     width: 'calc(100%-48px)',
     marginBottom: '24px',
     padding: '32px 28px',
-    backgroundColor: '#df9dc2',
+    backgroundColor: '#D198F9',
     borderRadius: '8px',
     cursor: 'pointer',
     '&:hover': {
@@ -50,7 +50,7 @@ export default function Learn() {
   const styles = useStyles();
   return (
     <div className={styles.container}>
-      <div className={styles.title}>Learn more</div>
+      {/* <div className={styles.title}>Learn more</div> */}
       <div className={styles.cardsContainer}>
         <a
           href="https://docs.soulswap.finance/docs/tokenomics"
