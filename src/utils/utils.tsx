@@ -40,8 +40,8 @@ export function formatAddress(
 
 export const Breakpoints = {
   xs: 320,
-  sm: 769,
-  md: 1200,
+  sm: 1080,
+  md: 1124,
   lg: 1600,
 };
 
