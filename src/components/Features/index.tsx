@@ -1,7 +1,7 @@
 import { createUseStyles } from 'react-jss';
 import { Breakpoints } from '../../utils/utils';
-import logo from '../Header/images/logo.png';
-import logo2 from './seance.jpeg';
+import SOUL from '../Header/images/logo.png';
+import SEANCE from './seance.jpeg';
 
 const useStyles = createUseStyles({
   container: {
@@ -93,9 +93,9 @@ export default function Features() {
           <div className={styles.cardContent}>
             <div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} src={logo} alt="card" />
+                <img className={styles.cardImage} src={SEANCE} alt="card" />
               </div>
-              <div className={styles.cardTitle}>Exchange</div>
+              <div className={styles.cardTitle}>SoulSwap</div>
               {/* <div className={styles.cardText}>
                 Across chains.
               </div> */}
@@ -109,9 +109,9 @@ export default function Features() {
           <div className={styles.cardContent}>
             <div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} src={logo2} alt="card" />
+                <img className={styles.cardImage} src={SOUL} alt="card" />
               </div>
-              <div className={styles.cardTitle}>Summon</div>
+              <div className={styles.cardTitle}>SoulPower</div>
               {/* <div className={styles.cardText}>
                 With liquidity.
               </div> */}
@@ -125,9 +125,9 @@ export default function Features() {
           <div className={styles.cardContent}>
             <div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} src={logo} alt="card" />
+                <img className={styles.cardImage} src={SEANCE} alt="card" />
               </div>
-              <div className={styles.cardTitle}>Seance</div>
+              <div className={styles.cardTitle}>SeanceCircle</div>
               {/* <div className={styles.cardText}>
                 Soul for Seance.
               </div> */}
@@ -141,9 +141,9 @@ export default function Features() {
           <div className={styles.cardContent}>
             <div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} src={logo2} alt="card" />
+                <img className={styles.cardImage} src={SOUL} alt="card" />
               </div>
-              <div className={styles.cardTitle}>Lend</div>
+              <div className={styles.cardTitle}>SouLend</div>
               {/* <div className={styles.cardText}>
                 With friends.
               </div> */}

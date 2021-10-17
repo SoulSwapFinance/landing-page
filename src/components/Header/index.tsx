@@ -17,7 +17,7 @@ const useStyles = createUseStyles({
   },
   navLink: {
     display: 'none',
-    color: '#BFBFBF',
+    color: '#D198F9',
     fontWeight: 600,
     fontSize: '16px',
     lineHeight: '17px',
@@ -70,7 +70,7 @@ export default function Header() {
   return (
     <div className={styles.container}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
-        <img src={logo} alt="metokens" className={styles.logoImage} />
+        <img src={logo} alt="soulswap" className={styles.logoImage} />
         <div className={styles.logoText}>SOULSWAP</div>
       </div>
       <div className={styles.navSubheader}>
