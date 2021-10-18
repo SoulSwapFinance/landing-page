@@ -1,6 +1,5 @@
 import { createUseStyles } from 'react-jss';
 import { Breakpoints } from '../../utils/utils';
-import caret from './caret.png';
 
 const useStyles = createUseStyles({
   container: {
