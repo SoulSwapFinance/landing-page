@@ -81,9 +81,8 @@ export default function Headline() {
             target="_blank"
             rel="noreferrer"
           >
-            <div
-              className={styles.CTA}
-              style={{ marginLeft: "24px", backgroundColor: "transparent" }}
+            <div className={styles.CTA} 
+            style={{ marginLeft: "24px", backgroundColor: "transparent" }}
             >
               DOCS
             </div>
@@ -91,7 +90,8 @@ export default function Headline() {
         </div>
       </div>
       <div className={styles.imageContainer}>
-        <img src={logo} alt="soul" style={{ width: "256px" }} />
+        <img src={'https://media.giphy.com/media/wGlOtQZba8TKT6qy3U/giphy.gif'} alt="soul" style={{ width: "420px" }} />
+        {/* <img src={logo} alt="soul" style={{ width: "256px" }} /> */}
       </div>
     </div>
   );

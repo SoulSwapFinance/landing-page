@@ -149,7 +149,7 @@ export default function Features() {
               </div> */}
             </div>
             <a href="https://soul.sh/stake" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>STAKE SEANCE</div>
+              <div className={styles.CTA}>STAKE SOUL</div>
             </a>
           </div>
         </div>
@@ -165,7 +165,7 @@ export default function Features() {
               </div> */}
             </div>
             <a href="https://view.monday.com/1765008420-f675b7885c5b411a6b49ba3f18b41cb8?r=use1" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>UP NEXT</div>
+              <div className={styles.CTA}>OUR ROADMAP</div>
             </a>
           </div>
         </div>
