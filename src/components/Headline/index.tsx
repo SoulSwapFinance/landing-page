@@ -2,6 +2,8 @@ import { createUseStyles } from "react-jss";
 import { Breakpoints } from "../../utils/utils";
 // import logo from "../Header/images/logo.png";
 
+let HEADER = 'https://media.giphy.com/media/wGlOtQZba8TKT6qy3U/giphy.gif';
+
 const useStyles = createUseStyles({
   container: {
     marginTop: "104px",
@@ -90,7 +92,7 @@ export default function Headline() {
         </div>
       </div>
       <div className={styles.imageContainer}>
-        <img src={'https://media.giphy.com/media/wGlOtQZba8TKT6qy3U/giphy.gif'} alt="soul" style={{ width: "420px" }} />
+        <img src={HEADER} alt="soul" style={{ width: "375px" }} />
         {/* <img src={logo} alt="soul" style={{ width: "256px" }} /> */}
       </div>
     </div>
