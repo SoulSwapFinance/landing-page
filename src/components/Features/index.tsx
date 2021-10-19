@@ -156,7 +156,7 @@ export default function Features() {
                 Soul for Seance.
               </div> */}
             </div>
-            <a href="https://soul.sh/stake" target="_blank" rel="noreferrer">
+            <a href="https://soul.sh/seance" target="_blank" rel="noreferrer">
               <div className={styles.CTA}>STAKE SOUL</div>
             </a>
           </div>
