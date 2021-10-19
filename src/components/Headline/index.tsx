@@ -1,6 +1,6 @@
 import { createUseStyles } from "react-jss";
 import { Breakpoints } from "../../utils/utils";
-import logo from "../Header/images/logo.png";
+// import logo from "../Header/images/logo.png";
 
 const useStyles = createUseStyles({
   container: {

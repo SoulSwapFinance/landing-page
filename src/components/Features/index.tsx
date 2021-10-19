@@ -1,7 +1,13 @@
 import { createUseStyles } from 'react-jss';
 import { Breakpoints } from '../../utils/utils';
-import SOUL from '../Header/images/logo.png';
-import SEANCE from './seance.jpeg';
+// import SOUL from '../Header/images/logo.png';
+// import SEANCE from './seance.jpeg';
+
+let TRADE = 'https://media.giphy.com/media/8yQady2pFVfGJSnde7/giphy.gif';
+let FEES = 'https://media.giphy.com/media/z61VConcyh7xzEXSXj/giphy.gif';
+let SUMMONER = 'https://media.giphy.com/media/3oz8xC4dxxJdjCZnEs/giphy.gif';
+let STAKE = 'https://media.giphy.com/media/jYoS8KTZzy7KJKVcVf/giphy.gif';
+let ROADMAP = 'https://media.giphy.com/media/VbDkxgjeSaty0loK6N/giphy.gif';
 
 const useStyles = createUseStyles({
   container: {
@@ -26,7 +32,9 @@ const useStyles = createUseStyles({
 
   },
   cardImage: {
-    width: '100%',
+    // width: '100%',
+    width: '100px',
+    height: '100px',
     alignItems: 'center',
   },
   cardContent: {
@@ -93,7 +101,7 @@ export default function Features() {
           <div className={styles.cardContent}>
             <div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} src={SEANCE} alt="card" />
+                <img className={styles.cardImage} src={TRADE} alt="card" />
               </div>
               {/* <div className={styles.cardTitle}>Swap</div>
               <div className={styles.cardText}>
@@ -109,7 +117,7 @@ export default function Features() {
           <div className={styles.cardContent}>
             <div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} src={SOUL} alt="card" />
+                <img className={styles.cardImage} src={FEES} alt="card" />
               </div>
               {/* <div className={styles.cardTitle}>Earn</div>
               <div className={styles.cardText}>
@@ -125,7 +133,7 @@ export default function Features() {
           <div className={styles.cardContent}>
             <div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} src={SOUL} alt="card" />
+                <img className={styles.cardImage} src={SUMMONER} alt="card" />
               </div>
               {/* <div className={styles.cardTitle}>Souls</div>
               <div className={styles.cardText}>
@@ -141,7 +149,7 @@ export default function Features() {
           <div className={styles.cardContent}>
             <div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} src={SEANCE} alt="card" />
+                <img className={styles.cardImage} src={STAKE} alt="card" />
               </div>
               {/* <div className={styles.cardTitle}>Seances</div>
               <div className={styles.cardText}>
@@ -157,7 +165,7 @@ export default function Features() {
           <div className={styles.cardContent}>
             <div>
               <div className={styles.cardImageContainer}>
-                <img className={styles.cardImage} src={SOUL} alt="card" />
+                <img className={styles.cardImage} src={ROADMAP} alt="card" />
               </div>
               {/* <div className={styles.cardTitle}>Outcasts</div>
               <div className={styles.cardText}>
