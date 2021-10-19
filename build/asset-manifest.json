@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a2c6bf2d.chunk.css",
-    "main.js": "/static/js/main.35502345.chunk.js",
-    "main.js.map": "/static/js/main.35502345.chunk.js.map",
+    "main.js": "/static/js/main.38885129.chunk.js",
+    "main.js.map": "/static/js/main.38885129.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9f599543.js",
     "runtime-main.js.map": "/static/js/runtime-main.9f599543.js.map",
     "static/css/2.68b64559.chunk.css": "/static/css/2.68b64559.chunk.css",
@@ -14,17 +14,17 @@
     "static/css/2.68b64559.chunk.css.map": "/static/css/2.68b64559.chunk.css.map",
     "static/css/main.a2c6bf2d.chunk.css.map": "/static/css/main.a2c6bf2d.chunk.css.map",
     "static/js/2.c5382524.chunk.js.LICENSE.txt": "/static/js/2.c5382524.chunk.js.LICENSE.txt",
+    "static/media/CoinGecko.23a707f9.png": "/static/media/CoinGecko.23a707f9.png",
     "static/media/Fantom.40755d1e.png": "/static/media/Fantom.40755d1e.png",
     "static/media/GrimFinance.52e29e07.png": "/static/media/GrimFinance.52e29e07.png",
     "static/media/LLAMA.321bfc95.png": "/static/media/LLAMA.321bfc95.png",
-    "static/media/logo.464b615c.png": "/static/media/logo.464b615c.png",
-    "static/media/seance.e4e9edec.jpeg": "/static/media/seance.e4e9edec.jpeg"
+    "static/media/logo.464b615c.png": "/static/media/logo.464b615c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9f599543.js",
     "static/css/2.68b64559.chunk.css",
     "static/js/2.c5382524.chunk.js",
     "static/css/main.a2c6bf2d.chunk.css",
-    "static/js/main.35502345.chunk.js"
+    "static/js/main.38885129.chunk.js"
   ]
 }
