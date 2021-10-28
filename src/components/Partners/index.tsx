@@ -2,7 +2,8 @@ import { createUseStyles } from 'react-jss';
 import { Breakpoints } from '../../utils/utils';
 import FANTOM from './images/Fantom.png';
 import GRIM from './images/GrimFinance.png';
-import DEBANK from './images/DeBank.png';
+import FALLACY from './images/Fallacy.png';
+// import DEBANK from './images/DeBank.png';
 import LLAMA from './images/LLAMA.png';
 import GECKO from './images/CoinGecko.png';
 
@@ -68,6 +69,15 @@ export default function Partners() {
           <div className={styles.partner}>Grim Finance</div>
         </a>
         <a
+          href="https://discord.com/invite/KRJzyZrmMG"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.card}
+        >
+          <img src={FALLACY} alt="The Fallacy Collection" style={{ width: '32px' }} />
+          <div className={styles.partner}>The Fallacy Collection</div>
+        </a>
+        {/* <a
           href="https://debank.com/profile/0xce6ccbb1edad497b4d53d829df491af70065ab5b"
           target="_blank"
           rel="noreferrer"
@@ -75,7 +85,7 @@ export default function Partners() {
         >
           <img src={DEBANK} alt="DeBank" style={{ width: '32px' }} />
           <div className={styles.partner}>DeBank Wallet</div>
-        </a>
+        </a> */}
         <a
           href="https://defillama.com/protocol/SoulSwap"
           target="_blank"
