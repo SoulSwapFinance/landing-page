@@ -1,5 +1,6 @@
 import { createUseStyles } from 'react-jss';
 import { Breakpoints } from '../../utils/utils';
+import CLICK from './click.gif';
 
 const useStyles = createUseStyles({
   container: {
@@ -25,6 +26,7 @@ const useStyles = createUseStyles({
     marginBottom: '24px',
   },
   cardText: {
+    justifyContent: 'center',
     marginTop: '24px',
     fontSize: '18px',
     color: '#222',
@@ -49,7 +51,7 @@ export default function Learn() {
   const styles = useStyles();
   return (
     <div className={styles.container}>
-      <div className={styles.title}>Discover More</div>
+      {/* <div className={styles.title}>Discover More</div> */}
       <div className={styles.cardsContainer}>
         <a
           href="https://docs.soulswap.finance/docs/tokenomics"
@@ -57,30 +59,30 @@ export default function Learn() {
           rel="noreferrer"
           className={styles.card}
         >
-          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div style={{ color: '#222', fontWeight: 500, fontSize: '24px' }}>
-              TOKENOMICS
+              OUR TOKENOMICS
             </div>
-            {/* <img src={caret} alt="learn" /> */}
+            {/* <img src={CLICK} height="25" width="25" alt="learn" /> */}
           </div>
           <div className={styles.cardText}>
-            Learn our tokenomics, including our emissions rate and allocation of our rewards.
+            Click to learn about our tokenomics, including our emissions rate and reward allocation.
           </div>
         </a>
         <a
-          href="https://docs.soulswap.finance/docs"
+          href="https://port.soul.sh"
           target="_blank"
           rel="noreferrer"
           className={styles.card}
         >
-          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div style={{ color: '#222', fontWeight: 500, fontSize: '24px' }}>
-              DOCUMENTATION
+              EXPLORE MORE
             </div>
-            {/* <img src={caret} alt="learn" /> */}
+            {/* <img src={CLICK} height="25" width="25" alt="learn" /> */}
           </div>
           <div className={styles.cardText}>
-            Discover all you need to know about SoulSwap and our products and services.
+          Connect to our portal and checkout our myriad of tools and resources.
           </div>
         </a>
         <a
@@ -89,15 +91,14 @@ export default function Learn() {
           rel="noreferrer"
           className={styles.card}
         >
-          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-            <div style={{ color: '#222', fontWeight: 500, fontSize: '24px' }}>
-              ROADMAP
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div style={{ color: '#222', fontWeight: 500, fontSize: '24px', alignContent: 'center' }}>
+              VIEW ROADMAP
             </div>
-            {/* <img src={caret} alt="learn" /> */}
           </div>
+            {/* <img src={CLICK} height="25" width="25" alt="learn" /> */}
           <div className={styles.cardText}>
-            Monitor our progress live and see our goals
-            and vision by viewing our live roadmap.
+            Monitor our progress and objectives by viewing our publicly-accessible roadmap.
           </div>
         </a>
       </div>

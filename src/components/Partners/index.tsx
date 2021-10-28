@@ -2,8 +2,9 @@ import { createUseStyles } from 'react-jss';
 import { Breakpoints } from '../../utils/utils';
 import FANTOM from './images/Fantom.png';
 import GRIM from './images/GrimFinance.png';
+import FALLACY from './images/Fallacy.png';
 import DEBANK from './images/DeBank.png';
-import LLAMA from './images/LLAMA.png';
+// import LLAMA from './images/llama.png';
 import GECKO from './images/CoinGecko.png';
 
 const useStyles = createUseStyles({
@@ -47,7 +48,7 @@ export default function Partners() {
   const styles = useStyles();
   return (
     <div className={styles.container}>
-      <div className={styles.title}>Partners and References</div>
+      <div className={styles.title}>Featured On...</div>
       <div className={styles.cardsContainer}>
         <a
           href="https://projects.fantom.network/project-detail/6159de47d93a9411a5d0817b"
@@ -68,6 +69,15 @@ export default function Partners() {
           <div className={styles.partner}>Grim Finance</div>
         </a>
         <a
+          href="https://discord.com/invite/KRJzyZrmMG"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.card}
+        >
+          <img src={FALLACY} alt="Fallacy Collection" style={{ width: '32px' }} />
+          <div className={styles.partner}>Fallacy Collection</div>
+        </a>
+        <a
           href="https://debank.com/profile/0xce6ccbb1edad497b4d53d829df491af70065ab5b"
           target="_blank"
           rel="noreferrer"
@@ -76,7 +86,7 @@ export default function Partners() {
           <img src={DEBANK} alt="DeBank" style={{ width: '32px' }} />
           <div className={styles.partner}>DeBank Wallet</div>
         </a>
-        <a
+        {/* <a
           href="https://defillama.com/protocol/SoulSwap"
           target="_blank"
           rel="noreferrer"
@@ -84,7 +94,7 @@ export default function Partners() {
         >
           <img src={LLAMA} alt="DeFi Llama" style={{ width: '32px' }} />
           <div className={styles.partner}>DeFi Llama</div>
-        </a>
+        </a> */}
         <a
           href="https://www.coingecko.com/en/coins/soul-swap"
           target="_blank"

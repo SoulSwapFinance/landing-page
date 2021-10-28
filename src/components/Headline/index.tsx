@@ -6,7 +6,7 @@ let HEADER = 'https://media.giphy.com/media/wGlOtQZba8TKT6qy3U/giphy.gif';
 
 const useStyles = createUseStyles({
   container: {
-    marginTop: "104px",
+    marginTop: "0px",
     display: "block",
     alignItems: "center",
     justifyContent: "space-between",
@@ -66,16 +66,20 @@ export default function Headline() {
   return (
     <div className={styles.container}>
       <div style={{ maxWidth: "600px", flexShrink: 0 }}>
-        <div className={styles.title}>the Other Side...</div>
+        {/* <div className={styles.title}>From the Other Side...</div> */}
         <div className={styles.subTitle}>
-          Soul builds upon the likes of Sushi, Uni, Compound, and Cake with an
-          innovative cross-chain rewards mechanism, DEX, atomic swaps, P2P
-          lending, and so much more!
+          Soul is the first protocol to offer a comprehensive, cross-chain liquidity solution 
+          that enables us to spread liquidity incentives across INFINITELY MANY blockchains
+          WITHOUT affecting (increasing) emissions.
+          <br/><br/>
+          We redefined governance and are 
+          paving the way for P2P Marketplaces, 
+          namely: cross-chain atomic swaps, zero-collatoral loans, and NFT auctions.
         </div>
         <div
           style={{ display: "flex", alignItems: "center", marginTop: "28px" }}
         >
-          <a href="https://soul.sh" target="_blank" rel="noreferrer">
+          <a href="https://app.soulswap.finance" target="_blank" rel="noreferrer">
             <div className={styles.CTA}>EXCHANGE</div>
           </a>
           <a
@@ -84,7 +88,7 @@ export default function Headline() {
             rel="noreferrer"
           >
             <div className={styles.CTA} 
-            style={{ marginLeft: "24px", backgroundColor: "transparent" }}
+            style={{ marginLeft: "12px", backgroundColor: "transparent" }}
             >
               DOCS
             </div>

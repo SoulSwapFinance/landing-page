@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <div className={styles.container}>
       <div>
-        {/* <div>SoulSwap - the leading DEX on Fantom.</div> */}
+        <div>Soul Protocol: Multi-Chain AMM and P2P Marketplace on Fantom .</div>
         <div
           style={{ display: 'flex', alignItems: 'center', marginTop: '20px' }}
         >

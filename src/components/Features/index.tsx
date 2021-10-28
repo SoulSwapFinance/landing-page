@@ -95,7 +95,7 @@ export default function Features() {
   const styles = useStyles();
   return (
     <div className={styles.container}>
-      <div className={styles.title}>Our Soul Services</div>
+      {/* <div className={styles.title}>Our Soul Services</div> */}
       <div className={styles.cardsContainer}>
         <div className={styles.card}>
           <div className={styles.cardContent}>
