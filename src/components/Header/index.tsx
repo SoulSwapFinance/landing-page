@@ -71,7 +71,7 @@ export default function Header() {
     <div className={styles.container}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <img src={logo} alt="soulswap" className={styles.logoImage} />
-        <div className={styles.logoText}>SOULSWAP</div>
+        <div className={styles.logoText}>SOULSWAP FINANCE</div>
       </div>
       <div className={styles.navSubheader}>
         <a
@@ -79,17 +79,24 @@ export default function Header() {
           target="_blank"
           rel="noreferrer"
         >
-          <div className={styles.navLink}>Tokenomics</div>
+          <div className={styles.navLink}>TOKENOMICS</div>
         </a>
         <a
           href="https://docs.soulswap.finance/docs/"
           target="_blank"
           rel="noreferrer"
         >
-          <div className={styles.navLink}>Docs</div>
+          <div className={styles.navLink}>DOCUMENTATION</div>
         </a>
-        <a href="https://soul.sh" target="_blank" rel="noreferrer">
-          <div className={styles.navCTA}>Launch App</div>
+        <a
+          href="https://analytics.soulswap.finance"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className={styles.navLink}>ANALYTICS</div>
+        </a>
+        <a href="https://app.soulswap.finance/farm" target="_blank" rel="noreferrer">
+          <div className={styles.navCTA}>SUMMON SOUL</div>
         </a>
       </div>
     </div>
