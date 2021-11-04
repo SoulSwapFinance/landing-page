@@ -69,17 +69,17 @@ export default function Headline() {
         {/* <div className={styles.title}>From the Other Side...</div> */}
         <div className={styles.subTitle}>
           Soul is the first protocol to offer a comprehensive, cross-chain liquidity solution 
-          that enables us to spread liquidity incentives across INFINITELY MANY blockchains
-          WITHOUT affecting (increasing) emissions.
+          that enables us to spread liquidity incentives across infinitely-many blockchains
+          WITHOUT affecting emissions.
           <br/><br/>
           We redefined governance and are 
           paving the way for P2P Marketplaces, 
-          namely: cross-chain atomic swaps, zero-collatoral loans, and NFT auctions.
+          namely: cross-chain atomic swaps, zero-collateral loans, and NFT auctions.
         </div>
         <div
           style={{ display: "flex", alignItems: "center", marginTop: "28px" }}
         >
-          <a href="https://app.soulswap.finance" target="_blank" rel="noreferrer">
+          <a href="https://app.soulswap.finance/#/exchange" target="_blank" rel="noreferrer">
             <div className={styles.CTA}>EXCHANGE</div>
           </a>
           <a
