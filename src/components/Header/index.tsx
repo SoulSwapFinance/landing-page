@@ -95,7 +95,7 @@ export default function Header() {
         >
           <div className={styles.navLink}>ANALYTICS</div>
         </a>
-        <a href="https://app.soulswap.finance/farm" target="_blank" rel="noreferrer">
+        <a href="https://app.soulswap.finance/#/farm" target="_blank" rel="noreferrer">
           <div className={styles.navCTA}>SUMMON SOUL</div>
         </a>
       </div>
