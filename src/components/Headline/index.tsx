@@ -79,7 +79,7 @@ export default function Headline() {
         <div
           style={{ display: "flex", alignItems: "center", marginTop: "28px" }}
         >
-          <a href="https://app.soulswap.finance/#/exchange" target="_blank" rel="noreferrer">
+          <a href="https://app.soulswap.finance/exchange" target="_blank" rel="noreferrer">
             <div className={styles.CTA}>EXCHANGE</div>
           </a>
           <a
