@@ -124,7 +124,7 @@ export default function Features() {
                 With liquidity.
               </div> */}
             </div>
-            <a href="https://soul.sh/farm" target="_blank" rel="noreferrer">
+            <a href="https://app.soulswap.finance/farms" target="_blank" rel="noreferrer">
               <div className={styles.CTA}>EARN FEES</div>
             </a>
           </div>
@@ -140,7 +140,7 @@ export default function Features() {
                 With liquidity.
               </div> */}
             </div>
-            <a href="https://soul.sh/farm" target="_blank" rel="noreferrer">
+            <a href="https://soul.sh/farms" target="_blank" rel="noreferrer">
               <div className={styles.CTA}>SUMMON SOUL</div>
             </a>
           </div>
