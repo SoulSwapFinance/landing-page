@@ -108,7 +108,7 @@ export default function Features() {
                 Across chains.
               </div> */}
             </div>
-            <a href="https://soul.sh/exchange/swap?/exactInput&inputCurrency=FTM&&outputCurrency=0xe2fb177009ff39f52c0134e8007fa0e4baacbd07" target="_blank" rel="noreferrer">
+            <a href="https://soul.sh/exchange/swap?/exactInput&inputCurrency=ETH&&outputCurrency=0xe2fb177009ff39f52c0134e8007fa0e4baacbd07" target="_blank" rel="noreferrer">
               <div className={styles.CTA}>TRADE TOKENS</div>
             </a>
           </div>
@@ -121,11 +121,11 @@ export default function Features() {
               </div>
               {/* <div className={styles.cardTitle}>Earn</div>
               <div className={styles.cardText}>
-                With liquidity.
+                With Seance.
               </div> */}
             </div>
-            <a href="https://app.soulswap.finance/farms" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>EARN FEES</div>
+            <a href="https://app.soulswap.finance/seance" target="_blank" rel="noreferrer">
+              <div className={styles.CTA}>EARN REWARDS</div>
             </a>
           </div>
         </div>
@@ -153,11 +153,11 @@ export default function Features() {
               </div>
               {/* <div className={styles.cardTitle}>Seances</div>
               <div className={styles.cardText}>
-                Soul for Seance.
+                Soul for Bonds.
               </div> */}
             </div>
-            <a href="https://soul.sh/seance" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>STAKE SOUL</div>
+            <a href="https://soul.sh/bonds" target="_blank" rel="noreferrer">
+              <div className={styles.CTA}>MINT SOUL</div>
             </a>
           </div>
         </div>
@@ -172,8 +172,8 @@ export default function Features() {
                 With friends.
               </div> */}
             </div>
-            <a href="https://view.monday.com/1765008420-f675b7885c5b411a6b49ba3f18b41cb8?r=use1" target="_blank" rel="noreferrer">
-              <div className={styles.CTA}>OUR ROADMAP</div>
+            <a href="https://soul.sh/vote" target="_blank" rel="noreferrer">
+              <div className={styles.CTA}>GOVERN SOUL</div>
             </a>
           </div>
         </div>
