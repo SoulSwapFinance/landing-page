@@ -86,7 +86,7 @@ export default function Learn() {
           </div>
         </a>
         <a
-          href="https://view.monday.com/1765008420-f675b7885c5b411a6b49ba3f18b41cb8?r=use1"
+          href="https://board.soulswap.finance"
           target="_blank"
           rel="noreferrer"
           className={styles.card}
