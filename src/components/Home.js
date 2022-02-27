@@ -12,6 +12,7 @@ import Coffin from '../assets/coffinbox.png'
 import NeonCircle from '../assets/neon-circle.png'
 import Underworld from '../assets/underworld.png'
 import Banner from '../assets/soul-banner.png'
+import Luxor from '../assets/luxor-logo.png'
 import Buns from '../assets/buns.png'
 import DeGatchi from '../assets/degatchi.png'
 
@@ -113,11 +114,11 @@ const Landing = () => {
                     <div className="max-w-2xl px-5 pt-6 mx-auto sm:px-4">
                         <div className="flex flex-col items-center space-y-4">
                             <img
-                                className="w-32 mx-auto sm:w-52"
+                                className="w-52 mx-auto sm:w-52"
                                 src={
                                     Banner
                                 }
-                                alt=""
+                                alt="SoulSwap SOUL Logo"
                             />
                             <div
                                 className="sm:text-4xl text-3xl font-primary sm:font-semibold text-center text-white sm:text-5xl"
@@ -153,10 +154,10 @@ const Landing = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="max-w-5xl px-4 py-2 mt-3 mx-auto"
+                    <div className="max-w-5xl px-1 py-1 mt-6 mx-auto"
                                         style={{ backgroundColor: '#7b48be'}}
                                         >
-                        <div className="grid grid-cols sm:grid-cols-2 gap-6 lg:grid-cols-4">
+                        <div className="grid grid-cols sm:grid-cols-2 gap-2 lg:grid-cols-4">
                             {stats &&
                                 stats.primary.map(stat => {
                                     return (
@@ -186,7 +187,7 @@ const Landing = () => {
                                 })}
                         </div>
                     </div>
-                    <div className="px-10 pt-3 mx-auto 2xl:max-w-7xl">
+                    <div className="px-10 mx-auto 2xl:max-w-7xl">
                         <Marquee>
                             {stats &&
                                 stats.secondary.map(stat => {
@@ -205,7 +206,7 @@ const Landing = () => {
                         </Marquee>
                     </div>
                 </div>
-                <div className="max-w-3xl px-4 pt-10 pb-4 mx-auto sm:pt-28">
+                <div className="max-w-3xl px-4 pt-10 pb-4 mx-auto sm:pt-10">
                     <div
                         className="text-2xl font-semibold text-center text-white sm:text-4xl"
                         style={{ maxWidth: '902px' }}
@@ -261,7 +262,7 @@ const Landing = () => {
                         />
                         <ProductCard
                             imgUrl={
-                                'https://github.com/SoulSwapFinance/assets/blob/master/blockchains/fantom/assets/0x6671E20b83Ba463F270c8c75dAe57e3Cc246cB2b/logo.png?raw=true'
+                                Luxor
                             }
                             marginLeft={true}
                             title={'Luxor Money'}
