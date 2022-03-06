@@ -68,7 +68,7 @@ const Menu = ({ setIsOpen, isOpen }) => {
                             </button>
                         </div>
                     </div>
-                    <div className="flex items-center ml-2 gap-6 justify-center h-12 w-full md:hidden">
+                    <div className="flex items-center ml-2 gap-6 justify-center h-12 w-full hidden">
                         <ExternalLink href="https://discord.com/invite/DQjChB6Wa6" target="_blank" className="text-white">
                             <img className="h-8 w-auto sm:h-10" src={Discord} alt="SoulSwap SOUL Logo" />
                         </ExternalLink>
