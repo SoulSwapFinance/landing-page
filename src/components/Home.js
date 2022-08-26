@@ -113,8 +113,6 @@ const Landing = () => {
                         backgroundRepeat: 'no-repeat'
                     }}
                 >
-                    <Menu setIsOpen={setIsOpen} isOpen={isOpen} />
-                    <MobileMenu setIsOpen={setIsOpen} isOpen={isOpen} />
                     <div className="max-w-2xl px-5 pt-6 mx-auto sm:px-4">
                         <div className="flex flex-col items-center space-y-4">
                             <img
