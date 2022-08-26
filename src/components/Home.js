@@ -134,19 +134,7 @@ const Landing = () => {
                             Swap, yield, lend, borrow, leverage, limit, and launch all on one, Soul-powered, community-driven ecosystem.
                             </div>
                             <div className="w-full max-w-lg pt-6 mx-auto sm:w-auto sm:flex sm:justify-center sm:space-x-6">
-                                <div
-                                    className="rounded-md mb-3 shadow-lg"
-                                    style={{ backgroundImage: 'linear-gradient(to right, #9e58dd, #8644DB)' }}
-                                >
-                                    <a
-                                        href="https://app.soulswap.finance/swap"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white rounded-md shadow-strong"
-                                    >
-                                        Exchange
-                                    </a>
-                                </div>
+
                                 <div className="w-full mt-3 mb-3 rounded-md shadow sm:w-auto sm:mt-0 sm:ml-3 bg-neutral-700">
                                     {/* <button
                                         onClick={handleClick}
