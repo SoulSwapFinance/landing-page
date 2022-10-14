@@ -69,7 +69,7 @@ const Menu = ({ setIsOpen, isOpen }) => {
                         </div>
                     </div>
                     <div className="flex items-center ml-2 gap-6 justify-center h-12 w-full hidden">
-                        <ExternalLink href="https://discord.com/invite/DQjChB6Wa6" target="_blank" className="text-white">
+                        <ExternalLink href="https://discord.com/SoulSwap" target="_blank" className="text-white">
                             <img className="h-8 w-auto sm:h-10" src={Discord} alt="SoulSwap SOUL Logo" />
                         </ExternalLink>
                         <ExternalLink href="https://twitter.com/SoulSwapFinance" target="_blank" className="text-white">
@@ -86,7 +86,7 @@ const Menu = ({ setIsOpen, isOpen }) => {
                         </ExternalLink>
                     </div>
                     <div className="hidden md:flex items-center lg:-ml-6 xl:-ml-16 gap-4 justify-start h-12 md:w-auto">
-                        <ExternalLink href="https://discord.com/invite/DQjChB6Wa6" target="_blank" className="hover:text-purple">
+                        <ExternalLink href="https://discord.gg/SoulSwap" target="_blank" className="hover:text-purple">
                             Discord{/* <img className="h-8 w-auto sm:h-10" src={Discord} alt="SoulSwap SOUL Logo" /> */}
                         </ExternalLink>
                         <ExternalLink href="https://twitter.com/SoulSwapFinance" target="_blank" className="hover:text-purple">
@@ -97,6 +97,12 @@ const Menu = ({ setIsOpen, isOpen }) => {
                         </ExternalLink>
                         <ExternalLink href="https://forum.soulswap.finance" target="_blank" className="hover:text-purple">
                             Forums
+                        </ExternalLink>
+                        <ExternalLink href="https://www.reddit.com/r/soulswapdefi" target="_blank" className="hover:text-purple">
+                            Reddit
+                        </ExternalLink>
+                        <ExternalLink href="https://github.com/SoulSwapFinance" target="_blank" className="hover:text-purple">
+                            GitHub
                         </ExternalLink>
                         <ExternalLink href="https://docs.soulswap.finance" target="_blank" className="hover:text-purple">
                             Documentation
