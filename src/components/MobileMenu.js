@@ -82,7 +82,7 @@ const MobileMenu = ({ setIsOpen, isOpen }) => {
                                     SoulSwap Exchange
                                 </a>
                                 <a
-                                    href="https://app.luxor.money"
+                                    href="https://soul.sh/luxor"
                                     className="block px-3 py-2 rounded-md text-base font-medium text-white focus:outline-none transition duration-150 ease-in-out"
                                     role="menuitem"
                                 >
