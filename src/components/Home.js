@@ -259,7 +259,7 @@ const Landing = () => {
                                 'Earn up to 10M% APY by staking Luxor Money, which helps build the SoulSwap Protocol as the reserve branch of our Ecosystem.'
                             }
                             cta={'Enter Luxor'}
-                            ctaLink={'https://app.soulswap.finance'}
+                            ctaLink={'https://soul.sh/luxor'}
                             customSize={'w-40 h-22'}
                         />
                         </div>
