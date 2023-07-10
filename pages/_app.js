@@ -9,8 +9,8 @@ import { ConnectKitProvider, getDefaultConfig } from 'connectkit';
 const config = createConfig(
   getDefaultConfig({
     appName: 'SoulSwap Finance',
-    infuraId: process.env.NEXT_PUBLIC_INFURA_ID,
-    alchemyId:  process.env.NEXT_PUBLIC_ALCHEMY_ID,
+    infuraId: process.env.NEXT_PUBLIC_INFURA_ID ?? '',
+    alchemyId:  process.env.NEXT_PUBLIC_ALCHEMY_ID ?? '',
     chains: [mainnet, avalanche, fantom],
     walletConnectProjectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID ?? '',
   })
