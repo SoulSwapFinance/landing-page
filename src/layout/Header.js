@@ -41,6 +41,61 @@ const Header = () => {
                 </a>
                 </Link>
               </li>
+              <li className="menu-item">
+                <Link 
+                  href="https://exchange.soulswap.finance"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img 
+                    src={'/img/text/exchange.png'}
+                    height={36}
+                    width={164}
+                    alt="exchange"
+                  />
+                </a>
+                </Link>
+              </li>
+              <li className="menu-item">
+                <Link 
+                  href="https://exchange.soulswap.finance/farm"
+                >
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img 
+                    src={'/img/text/summon.png'}
+                    height={36}
+                    width={164}
+                    alt="summon"
+                  />
+                </a>
+                </Link>
+              </li>
+              <li className="menu-item">
+                <Link 
+                  href="https://exchange.soulswap.finance/defarms"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img 
+                    src={'/img/text/launch.png'}
+                    height={36}
+                    width={164}
+                    alt="launch"
+                  />
+                </a>
+                </Link>
+              </li>
               {/* <li className="menu-item">
                 <Link href="/mint">
                 <a>
@@ -53,7 +108,7 @@ const Header = () => {
                 </a>
                 </Link>
               </li> */}
-              <li className="menu-item">
+              {/* <li className="menu-item">
                 <Link href="/about">
                 <a>
                   <img 
@@ -64,13 +119,13 @@ const Header = () => {
                   />
                 </a>
                 </Link>
-              </li>
-              <li className="menu-item">
+              </li> */}
+              {/* <li className="menu-item">
                 <Link href="/brujas">
                 <a>
                   <img 
                     src={'/img/text/brujas.png'}
-                    height={36}
+                    height={48}
                     width={164}
                     alt="brujas"
                   />
@@ -88,7 +143,7 @@ const Header = () => {
                   />
                 </a>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           {/* <div className="nav_buttons">
