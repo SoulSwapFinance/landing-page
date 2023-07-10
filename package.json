@@ -5,7 +5,7 @@
   "author": "Buns Enchantress",
   "scripts": {
     "bdev": "yarn build && yarn dev",
-    "dev": "PORT=3636 next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
