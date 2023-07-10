@@ -120,7 +120,7 @@ const Index = () => {
           </a>
         </div>
       </div>
-      <div
+      {/* <div
         className="soul_fn_title"
         style={{
           marginTop: '50px',
@@ -128,7 +128,7 @@ const Index = () => {
         }}
       >
         <Timeline />
-      </div>
+      </div> */}
     </Layout>
   );
 };

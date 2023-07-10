@@ -29,17 +29,46 @@ const Footer = () => {
               <div className="fb_right">
                 <ul>
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link 
+                      href="https://twitter.com/SoulSwapFinance">
+                      <a>
+                        Twitter
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link 
+                      href="https://discord.gg/SoulSwap">
+                      <a>
+                        Discord
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link 
+                      href="https://t.me/SoulSwapDeFi">
+                      <a>
+                        Telegram
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link 
+                      href="https://links.soulswap.finance">
+                      <a>
+                        Links
+                      </a>
+                    </Link>
                   </li>
                   {/* <li>
                     <Link href="/about">About</Link>
                   </li> */}
-                  <li>
+                  {/* <li>
                     <Link href="/brujas">Brujas</Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="/roadmap">Roadmap</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
