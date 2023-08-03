@@ -36,7 +36,7 @@ const Collection = () => {
             >
               <h3 className="fn_title">
                 <img
-                  src={'/img/text/mint-brujas.png'}
+                  src={'/img/text/Mint-brujas.png'}
                   height={64}
                   width={360}
                 />

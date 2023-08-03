@@ -97,10 +97,10 @@ const Header = () => {
                 </Link>
               </li>
               {/* <li className="menu-item">
-                <Link href="/mint">
+                <Link href="/Mint">
                 <a>
                   <img
-                    src={'/img/text/mint.png'}
+                    src={'/img/text/Mint.png'}
                     height={36}
                     width={164}
                     alt="mint"
@@ -133,10 +133,10 @@ const Header = () => {
                 </Link>
               </li>
               <li className="menu-item">
-                <Link href="/roadmap">
+                <Link href="/Roadmap">
                 <a>
                   <img 
-                    src={'/img/text/roadmap.png'}
+                    src={'/img/text/Roadmap.png'}
                     height={36}
                     width={164}
                     alt="roadmap"

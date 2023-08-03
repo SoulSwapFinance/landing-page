@@ -15,7 +15,7 @@ const Timeline = () => {
       <div className="soul_fn_title">
       <h3 className="fn_title">
             <img 
-              src={'/img/text/roadmap.png'}
+              src={'/img/text/Roadmap.png'}
               height={48}
               width={224}
               alt="soulswap roadmap"
@@ -53,7 +53,7 @@ const Timeline = () => {
                   <span>July 2023</span>
                   </p>
                   <h3 className="fn_title">
-                    <Link href="/roadmap-single">
+                    <Link href="/RoadmapSingle">
                       Announce NFT Launch
                     </Link>
                   </h3>
@@ -61,7 +61,7 @@ const Timeline = () => {
                   Landing page announcing launch.
                   </p>
                   {/* <p className="fn_read">
-                    <Link href="/roadmap-single">
+                    <Link href="/RoadmapSingle">
                       <a className="soul_fn_button only_text">
                         <span className="text">Read More</span>
                       </a>
@@ -92,7 +92,7 @@ const Timeline = () => {
                   <span>September 2023</span>
                   </p>
                   <h3 className="fn_title">
-                    <Link href="/roadmap-single">
+                    <Link href="/RoadmapSingle">
                     Public Launch
                     </Link>
                   </h3>
@@ -100,7 +100,7 @@ const Timeline = () => {
                   Going live for mints and public launch.
                   </p>
                   {/* <p className="fn_read">
-                    <Link href="/roadmap-single">
+                    <Link href="/RoadmapSingle">
                       <a className="soul_fn_button only_text">
                         <span className="text">Read More</span>
                       </a>

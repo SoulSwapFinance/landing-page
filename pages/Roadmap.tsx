@@ -32,7 +32,7 @@ const Roadmap = () => {
                       <span>July 2023</span>
                     </p>
                     <h3 className="fn_title">
-                      <Link href="/roadmap-single">
+                      <Link href="/RoadmapSingle">
                       Announce NFT Launch
                       </Link>
                     </h3>
@@ -40,7 +40,7 @@ const Roadmap = () => {
                     Landing page announcing launch.
                     </p>
                     <p className="fn_read">
-                      <Link href="/roadmap-single">
+                      <Link href="/RoadmapSingle">
                         <a className="soul_fn_button only_text">
                           <span className="text">Read More</span>
                         </a>
@@ -71,7 +71,7 @@ const Roadmap = () => {
                       <span>September 2023</span>
                     </p>
                     <h3 className="fn_title">
-                      <Link href="/roadmap-single">
+                      <Link href="/RoadmapSingle">
                         Public Launch
                       </Link>
                     </h3>
@@ -79,7 +79,7 @@ const Roadmap = () => {
                      Public launch event.
                     </p>
                     <p className="fn_read">
-                      <Link href="/roadmap-single">
+                      <Link href="/RoadmapSingle">
                         <a className="soul_fn_button only_text">
                           <span className="text">Read More</span>
                         </a>

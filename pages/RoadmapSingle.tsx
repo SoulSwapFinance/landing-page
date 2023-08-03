@@ -10,7 +10,7 @@ const RoadmapSingle = () => {
         {/* !Single Background */}
         {/* Single Content */}
         <div className="single_content">
-          <div className="container" id="roadmap-single-content">
+          <div className="container" id="RoadmapSingle-content">
             {/* <div className="soul_fn_share">
               <h5 className="label">Share:</h5>
               <ul>
@@ -30,7 +30,7 @@ const RoadmapSingle = () => {
               <p>
                 <Link href="/index">Home</Link>
                 <span className="separator">/</span>
-                <Link href="/roadmap">RoadMap</Link>
+                <Link href="/Roadmap">RoadMap</Link>
                 <span className="separator">/</span>
                 <span className="current">Bruja NFT Launch</span>
               </p>
