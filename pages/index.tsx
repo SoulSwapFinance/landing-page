@@ -43,7 +43,7 @@ const Index = () => {
                   borderRadius: '10px',
                   margin: '10px',
                   padding: '10px',
-                  borderColor: '#af81f7',
+                  borderColor: '#6A02FF',
                   animation: 'pulse 2s',
                 }}
               >
@@ -77,7 +77,7 @@ const Index = () => {
                   borderRadius: '10px',
                   margin: '10px',
                   padding: '10px',
-                  borderColor: '#af81f7',
+                  borderColor: '#6A02FF',
                   animation: 'pulse 2s',
                 }}
               >
