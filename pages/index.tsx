@@ -2,6 +2,7 @@ import ServicesComponent from "../src/components/ServicesComponent";
 import Timeline from "../src/components/Timeline";
 import Link from 'next/link';
 import Layout from "../src/layout/Layout";
+import Image from 'next/image';
 
 const Index = () => {
   return (
@@ -80,19 +81,17 @@ const Index = () => {
                   animation: 'pulse 2s',
                 }}
               >
-                <Link href={`https://exchange.soulswap.finance`}>
-                <a
-                  
+                <Link 
+                  href={`https://exchange.soulswap.finance`}
                   target="_blank"
                   rel="noreferrer"
-                >
-                <img
+                  >
+                <Image
                     src={'/img/text/exchange.png'}
                     height={24}
                     width={164}
                 // {'Visit Exchange'}
                 />
-                </a>
               </Link>
               </p>
             <span className="icon">
