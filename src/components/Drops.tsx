@@ -37,7 +37,8 @@ const Drops = () => {
         open={toggle}
         close={() => setToggle(false)}
         img={img}
-        title={title}
+        title={title} 
+        dec={undefined}
       />
       {/* Drops Section */}
       <section id="drop">
