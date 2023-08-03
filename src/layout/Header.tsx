@@ -72,7 +72,7 @@ const Header = () => {
                     border: '1px solid #fff',
                     padding: '0 12px',
                     borderRadius: '12px',
-                    borderColor: '#af81f7'
+                    borderColor: '#6A02FF'
                   }}
                 >
                   {'Discord'}
@@ -88,7 +88,7 @@ const Header = () => {
                     border: '1px solid #fff',
                     padding: '0 12px',
                     borderRadius: '12px',
-                    borderColor: '#af81f7'
+                    borderColor: '#6A02FF'
                   }}
                 >
                   {'Twitter'}
@@ -104,7 +104,7 @@ const Header = () => {
                     border: '1px solid #fff',
                     padding: '0 12px',
                     borderRadius: '12px',
-                    borderColor: '#af81f7'
+                    borderColor: '#6A02FF'
                   }}
                 >
                   {'Docs'}
@@ -120,7 +120,7 @@ const Header = () => {
                     border: '1px solid #fff',
                     padding: '0 12px',
                     borderRadius: '12px',
-                    borderColor: '#af81f7'
+                    borderColor: '#6A02FF'
                   }}
                 >
                   {'Links'}
