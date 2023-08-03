@@ -8,19 +8,19 @@ import {
 
 const MintButton = () => {
 
-  const { write } = useContractWrite({
-    address: '', // todo: update address
-    abi: [
-      {
-        name: 'mint',
-        type: 'function',
-        stateMutability: 'nonpayable',
-        inputs: [],
-        outputs: [],
-      },
-    ],
-    functionName: 'mint',
-  })
+  // const { write } = useContractWrite({
+  //   address: '', // todo: update address
+  //   abi: [
+  //     {
+  //       name: 'mint',
+  //       type: 'function',
+  //       stateMutability: 'nonpayable',
+  //       inputs: [],
+  //       outputs: [],
+  //     },
+  //   ],
+  //   functionName: 'mint',
+  // })
 
   // const { address } = useAccount()
   // const { data } = useBalance({ address })
@@ -35,18 +35,18 @@ const MintButton = () => {
           alignItems: 'center',
           justifyContent: 'center',
           height: '4vh',
-          fit: 'contain',
+          // fit: 'contain',
           marginLeft: '0px',
           width: '100%'
         }}
       >
         <button
           style={{
-            fontColor: '#FFFFFF',
+            // fontColor: '#FFFFFF',
           }}
           // disabled={insufficientBalance}
           disabled={true}
-          onClick={() => write()}
+          // onClick={() => write()}
         >
           {/* {
             insufficientBalance ? `Insufficient Funds`
