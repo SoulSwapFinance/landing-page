@@ -22,12 +22,26 @@ const Index = () => {
         <div className="hero_content">
           <div className="container">
             <div className="content">
-              <h2 className="fn_title" title="Soul">
-                <img src="/img/text/soulswap-finance.png"
+              {/* <h2 className="fn_title" title="Soul"> */}
+              <h2
+                style={{
+                  display: 'flex',
+                  // border: '1px solid',
+                  // borderRadius: '10px',
+                  padding: '10px',
+                  color: '#6A02FF',
+                  fontFamily: 'Cursive',
+                  fontSize: '48px',
+                  // borderColor: '#6A02FF',
+                }}
+              >
+                {`SoulSwap Finance`}
+              </h2>
+              {/* <img src="/img/text/soulswap-finance.png"
                   alt=""
                   height={64}
-                />
-              </h2>
+                /> */}
+              {/* </h2> */}
               <p className="fn_desc fn_animated_text">
                 Swap, Farm, Stake, and Earn...
               </p>
@@ -63,41 +77,52 @@ const Index = () => {
               </Link>
               </p>
           </div> */}
-          <a
-            href="#about"
+          <div
+            // href="#about"
             className="soul_fn_down magic-hover magic-hover__square"
           >
             {/* <span className="text">Scroll Down</span> */}
-              <p
+            <Link
+              href={`https://exchange.soulswap.finance`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {/* <p
+              style={{
+                alignItems: 'center',
+                justifyContent: 'center',
+                marginTop: '60px',
+                border: '1px solid',
+                borderRadius: '10px',
+                margin: '10px',
+                padding: '10px',
+                // borderColor: '#6A02FF',
+                animation: 'pulse 2s',
+              }}
+            > */}
+
+              <h2
                 style={{
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  marginTop: '60px',
+                  display: 'flex',
                   border: '1px solid',
                   borderRadius: '10px',
+                  padding: '18px',
+                  color: '#6A02FF',
+                  fontFamily: 'Cursive',
+                  fontSize: '24px',
                   margin: '10px',
-                  padding: '10px',
-                  borderColor: '#6A02FF',
-                  animation: 'pulse 2s',
+                  marginTop: '10px',
+                  borderColor: '#FFFFFF',
                 }}
               >
-                <Link 
-                  href={`https://exchange.soulswap.finance`}
-                  target="_blank"
-                  rel="noreferrer"
-                  >
-                <Image
-                    src={'/img/text/exchange.png'}
-                    height={24}
-                    width={164}
-                // {'Visit Exchange'}
-                />
-              </Link>
-              </p>
+                {`Exchange`}
+              </h2>
+              {/* </p> */}
+            </Link>
             <span className="icon">
               <img src="svg/right-arr.svg" alt="" className="fn__svg" />
             </span>
-          </a>
+          </div>
         </div>
       </div>
       {/* About Section */}
@@ -106,7 +131,15 @@ const Index = () => {
       {/* !Hero Header */}
       {/* Video Shortcode */}
       <div className="soul_fn_video">
-        <div className="bg_overlay">
+        <div className="bg_overlay"
+          style={{
+            marginTop: '50px',
+            margin: '10px',
+            border: '2px solid',
+            borderRadius: '4px',
+            borderColor: '#6A02FF',
+          }}
+        >
           <div className="bg_image" data-bg-img="img/brujas/bruja-5.png" />
           <div className="bg_color" />
         </div>
