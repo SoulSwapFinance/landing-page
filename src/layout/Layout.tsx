@@ -32,7 +32,7 @@ const Layout = ({ children, pageName }) => {
         <Header />
         <div className="soul_fn_content">{children}</div>
         <Footer />
-        <ScrollTop />
+        {/* <ScrollTop /> */}
       </div>
 
       <div className="soul_fn_moving_box"></div>
