@@ -67,7 +67,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      SoulSwap Beta Launch
+                      Beta Launch
                     </a>
                   </h3>
                   <p className="fn_desc">
@@ -89,6 +89,52 @@ const Timeline = () => {
               </div>
             </li>
             <li className={`timeline_item ${activeClass(2)}`} data-index={2}>
+              <div className="t_item">
+                {/* <div className="t_item_img">
+                  <div className="soul_fn_gallery_1_2">
+                    <div className="gallery_in">
+                      <div className="item row2">
+                        <img src="img/brujas/bruja-4.png" alt="" />
+                      </div>
+                      <div className="item">
+                        <img src="img/brujas/bruja-5.png" alt="" />
+                      </div>
+                      <div className="item">
+                        <img src="img/brujas/bruja-1.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div> */}
+                <div className="t_item_info">
+                  <p className="fn_date">
+                  <span>July 2022</span>
+                  </p>
+                  <h3 className="fn_title">
+                    <a
+                      href="https://twitter.com/SoulSwapFinance/status/1553933133338271745?s=20"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Multichain Bridge
+                    </a>
+                  </h3>
+                  <p className="fn_desc">
+                  {'We have rolled out our multichain bridge, which enables you to bridge assets from multiple blockchains, including: Fantom, Avalanche, Ethereum, and more!'}
+                  </p>
+                  <p className="fn_read">
+                      <a
+                        href="https://twitter.com/SoulSwapFinance/status/1553933133338271745?s=20"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="soul_fn_button only_text"
+                      >
+                        <span className="text">View Tweet</span>
+                      </a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className={`timeline_item ${activeClass(3)}`} data-index={3}>
               <div className="t_item">
                 {/* <div className="t_item_img">
                   <div className="soul_fn_gallery_1_2">
@@ -186,10 +232,19 @@ const Timeline = () => {
                 </li>
                 <li className={activeClass(2)}>
                   <a onClick={() => onClick(2)}>
-                    <span className="text">09.2022</span>
+                    <span className="text">07.2022</span>
                     <span
                       className="circle"
                       style={{ filter: `brightness(${filter(2)}%)` }}
+                    />
+                  </a>
+                </li>
+                <li className={activeClass(3)}>
+                  <a onClick={() => onClick(3)}>
+                    <span className="text">09.2022</span>
+                    <span
+                      className="circle"
+                      style={{ filter: `brightness(${filter(3)}%)` }}
                     />
                   </a>
                 </li>
