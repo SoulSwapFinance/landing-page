@@ -27,7 +27,7 @@ const Timeline = () => {
               // borderColor: '#8A02FF',
             }}
           >
-            {'Our Roadmap'}
+            {'Our Accomplishments'}
         </h3> 
         <div className="line">
           <span />
@@ -107,7 +107,53 @@ const Timeline = () => {
                 </div> */}
                 <div className="t_item_info">
                   <p className="fn_date">
-                  <span>July 2022</span>
+                  <span>December 2021</span>
+                  </p>
+                  <h3 className="fn_title">
+                    <a
+                      href="https://soulswapfinance.medium.com/owning-our-liquidity-via-our-innovative-soul-bonds-podl-592c2849ceed"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Bonds Launch
+                    </a>
+                  </h3>
+                  <p className="fn_desc">
+                  {'We just rolled out significant upgrades to the Soul Protocol. The primary upgrade involves a new mechanism for minting SOUL, which enables users to bond an LP in an innovative manner.'}
+                  </p>
+                  <p className="fn_read">
+                      <a
+                        href="https://soulswapfinance.medium.com/owning-our-liquidity-via-our-innovative-soul-bonds-podl-592c2849ceed"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="soul_fn_button only_text"
+                      >
+                        <span className="text">Read More</span>
+                      </a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className={`timeline_item ${activeClass(3)}`} data-index={3}>
+              <div className="t_item">
+                {/* <div className="t_item_img">
+                  <div className="soul_fn_gallery_1_2">
+                    <div className="gallery_in">
+                      <div className="item row2">
+                        <img src="img/brujas/bruja-4.png" alt="" />
+                      </div>
+                      <div className="item">
+                        <img src="img/brujas/bruja-5.png" alt="" />
+                      </div>
+                      <div className="item">
+                        <img src="img/brujas/bruja-1.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div> */}
+                <div className="t_item_info">
+                  <p className="fn_date">
+                  <span>May 2022</span>
                   </p>
                   <h3 className="fn_title">
                     <a
@@ -115,7 +161,7 @@ const Timeline = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Multichain Bridge
+                      Bridge Launch
                     </a>
                   </h3>
                   <p className="fn_desc">
@@ -134,7 +180,7 @@ const Timeline = () => {
                 </div>
               </div>
             </li>
-            <li className={`timeline_item ${activeClass(3)}`} data-index={3}>
+            <li className={`timeline_item ${activeClass(4)}`} data-index={4}>
               <div className="t_item">
                 {/* <div className="t_item_img">
                   <div className="soul_fn_gallery_1_2">
@@ -232,15 +278,24 @@ const Timeline = () => {
                 </li>
                 <li className={activeClass(2)}>
                   <a onClick={() => onClick(2)}>
-                    <span className="text">07.2022</span>
+                    <span className="text">12.2021</span>
+                    <span
+                      className="circle"
+                      style={{ filter: `brightness(${filter(1)}%)` }}
+                    />
+                  </a>
+                </li>
+                <li className={activeClass(3)}>
+                  <a onClick={() => onClick(3)}>
+                    <span className="text">05.2022</span>
                     <span
                       className="circle"
                       style={{ filter: `brightness(${filter(2)}%)` }}
                     />
                   </a>
                 </li>
-                <li className={activeClass(3)}>
-                  <a onClick={() => onClick(3)}>
+                <li className={activeClass(4)}>
+                  <a onClick={() => onClick(4)}>
                     <span className="text">09.2022</span>
                     <span
                       className="circle"
