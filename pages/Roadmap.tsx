@@ -13,7 +13,12 @@ const Roadmap = () => {
               <li className="road_item">
                 <div className="t_item">
                   <div className="t_item_img">
-                    <div className="soul_fn_gallery_1_2">
+                    <img
+                      src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Ce-wHatFeJKVlM-apCQvdA.png"
+                    >
+                    
+                    </img>
+                    {/* <div className="soul_fn_gallery_1_2">
                       <div className="gallery_in">
                         <div className="item row2">
                           <img src="img/brujas/bruja-1.png" alt="" />
@@ -25,22 +30,22 @@ const Roadmap = () => {
                           <img src="img/brujas/bruja-5.png" alt="" />
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="t_item_info">
                     <p className="fn_date">
-                      <span>July 2023</span>
+                      <span>August 2021</span>
                     </p>
                     <h3 className="fn_title">
-                      <Link href="/RoadmapSingle">
-                      Announce NFT Launch
+                      <Link href="/posts/BetaLaunch">
+                      SoulSwap Beta
                       </Link>
                     </h3>
-                    <p className="fn_desc">
-                    Landing page announcing launch.
-                    </p>
+                    {/* <p className="fn_desc">
+                    Our public beta launch.
+                    </p> */}
                     <p className="fn_read">
-                      <Link href="/RoadmapSingle">
+                      <Link href="/posts/BetaLaunch">
                         <a className="soul_fn_button only_text">
                           <span className="text">Read More</span>
                         </a>
@@ -68,18 +73,16 @@ const Roadmap = () => {
                   </div>
                   <div className="t_item_info">
                   <p className="fn_date">
-                      <span>September 2023</span>
+                      <span>September 2022</span>
                     </p>
                     <h3 className="fn_title">
-                      <Link href="/RoadmapSingle">
-                        Public Launch
+                      <Link href="/posts/AvalancheLaunch">
+                        Avalanche Launch
                       </Link>
                     </h3>
-                    <p className="fn_desc">
-                     Public launch event.
-                    </p>
+
                     <p className="fn_read">
-                      <Link href="/RoadmapSingle">
+                      <Link href="/posts/LendingMarkets">
                         <a className="soul_fn_button only_text">
                           <span className="text">Read More</span>
                         </a>
@@ -87,6 +90,16 @@ const Roadmap = () => {
                     </p>
                   </div>
                 </div>
+              </li>
+              <li className="road_item"
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  textAlign: "center",
+                  color: '#8A02FF',
+                }}
+              >
+                This is a work in progress, please return September 2023 for a complete roadmap.
               </li>
             </ul>
           </div>

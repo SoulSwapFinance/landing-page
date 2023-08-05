@@ -78,16 +78,16 @@ export const imgToSVG = () => {
         let svg = xmlDoc.querySelector("svg");
 
         if (typeof imgID !== "undefined") {
-          svg.setAttribute("id", imgID);
+          svg?.setAttribute("id", imgID);
         }
 
         if (typeof imgClass !== "undefined") {
-          svg.setAttribute("class", imgClass + " replaced-svg");
+          svg?.setAttribute("class", imgClass + " replaced-svg");
         }
 
-        svg.removeAttribute("xmlns:a");
+        svg?.removeAttribute("xmlns:a");
 
-        el.parentNode && el.parentNode.replaceChild(svg, el);
+        svg && el.parentNode && el.parentNode?.replaceChild(svg, el); 
       });
   });
 };

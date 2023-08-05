@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
-const Timeline = () => {
+const BrujasTimeline = () => {
   const [active, setActive] = useState(2);
   const [activeTimeline, setActiveTimeline] = useState(2);
   const onClick = (value) => {
@@ -13,22 +13,14 @@ const Timeline = () => {
     <Fragment>
       {/* Main Title */}
       <div className="soul_fn_title">
-      <h3
-            style={{
-              display: 'flex',
-              // border: '1px solid',
-              // borderRadius: '10px',
-              // padding: '10px',
-              color: '#8A02FF',
-              fontFamily: 'Cursive',
-              fontSize: '48px',
-              margin: '10px',
-              marginTop: '10px',
-              // borderColor: '#8A02FF',
-            }}
-          >
-            {'Our Roadmap'}
-        </h3> 
+      <h3 className="fn_title">
+            <img 
+              src={'/img/text/Roadmap.png'}
+              height={48}
+              width={224}
+              alt="soulswap roadmap"
+            />
+          </h3>
         <div className="line">
           <span />
         </div>
@@ -41,7 +33,7 @@ const Timeline = () => {
           <ul className="timeline_list">
             <li className={`timeline_item ${activeClass(1)}`} data-index={1}>
               <div className="t_item">
-                {/* <div className="t_item_img">
+                <div className="t_item_img">
                   <div className="soul_fn_gallery_1_2">
                     <div className="gallery_in">
                       <div className="item row2">
@@ -55,88 +47,68 @@ const Timeline = () => {
                       </div>
                     </div>
                   </div>
-                </div> */}
+                </div>
                 <div className="t_item_info">
                   <p className="fn_date">
-                  <span>August 2021</span>
+                  <span>July 2023</span>
                   </p>
                   <h3 className="fn_title">
-                    {/* <Link href="/RoadmapSingle"> */}
-                    <a
-                      href="https://soulswapfinance.medium.com/introdsoulswap-beta-d8266b3ce2f4"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      SoulSwap Beta Launch
-                    </a>
+                    <Link href="/RoadmapSingle">
+                      Announce NFT Launch
+                    </Link>
                   </h3>
                   <p className="fn_desc">
-                  For those of you who have not been in the loop, EasyBakeSwap has been possessed by SoulSwap and we will be launching this month with a whole host of decentralized applications for our users to enjoy.
+                  Landing page announcing launch.
                   </p>
-                  <p className="fn_read">
-                    <Link href="/posts/BetaLaunch">
-                      <a
-                        // href="https://soulswapfinance.medium.com/introdsoulswap-beta-d8266b3ce2f4"
-                        // target="_blank"
-                        // rel="noreferrer"
-                        className="soul_fn_button only_text"
-                      >
+                  {/* <p className="fn_read">
+                    <Link href="/RoadmapSingle">
+                      <a className="soul_fn_button only_text">
                         <span className="text">Read More</span>
                       </a>
                     </Link>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </li>
             <li className={`timeline_item ${activeClass(2)}`} data-index={2}>
               <div className="t_item">
-                {/* <div className="t_item_img">
+                <div className="t_item_img">
                   <div className="soul_fn_gallery_1_2">
                     <div className="gallery_in">
-                      <div className="item row2">
-                        <img src="img/brujas/bruja-4.png" alt="" />
-                      </div>
-                      <div className="item">
-                        <img src="img/brujas/bruja-5.png" alt="" />
-                      </div>
-                      <div className="item">
+                     <div className="item row2">
                         <img src="img/brujas/bruja-1.png" alt="" />
+                      </div>
+                      <div className="item">
+                        <img src="img/brujas/bruja-2.png" alt="" />
+                      </div>
+                      <div className="item">
+                        <img src="img/brujas/bruja-3.png" alt="" />
                       </div>
                     </div>
                   </div>
-                </div> */}
+                </div>
                 <div className="t_item_info">
                   <p className="fn_date">
-                  <span>September 2022</span>
+                  <span>September 2023</span>
                   </p>
                   <h3 className="fn_title">
-                    <a
-                      href="https://twitter.com/SoulSwapFinance/status/1575216568933355520?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1576340222874304512%7Ctwgr%5Edac36011f986fe5dbbeda9937fa51f5b463b4fdc%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps3A2F2Ftwitter.com2FSoulSwapFinance2Fstatus2F1576340222874304512widget%3DTweet"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Avalanche Launch
-                    </a>
+                    <Link href="/RoadmapSingle">
+                    Public Launch
+                    </Link>
                   </h3>
                   <p className="fn_desc">
-                  Our Avalanche Farms & Bonds begin THIS WEEKEND during our Community Town Hall, please set a reminder and join us while we make history!
+                  Going live for mints and public launch.
                   </p>
-                  <p className="fn_read">
-                    <Link href="/posts/AvalancheLaunch">
-                      <a
-                        // href="https://soulswapfinance.medium.com/introdsoulswap-beta-d8266b3ce2f4"
-                        // target="_blank"
-                        // rel="noreferrer"
-                        className="soul_fn_button only_text"
-                      >
+                  {/* <p className="fn_read">
+                    <Link href="/RoadmapSingle">
+                      <a className="soul_fn_button only_text">
                         <span className="text">Read More</span>
                       </a>
                     </Link>
-                  </p>
+                  </p>  */}
                 </div>
               </div>
             </li>
-            
           </ul>
         </div>
         {/* !Timeline Content */}
@@ -177,7 +149,7 @@ const Timeline = () => {
               <ul>
                 <li className={activeClass(1)}>
                   <a onClick={() => onClick(1)}>
-                    <span className="text">08.2021</span>
+                    <span className="text">07.2023</span>
                     <span
                       className="circle"
                       style={{ filter: `brightness(${filter(1)}%)` }}
@@ -186,7 +158,7 @@ const Timeline = () => {
                 </li>
                 <li className={activeClass(2)}>
                   <a onClick={() => onClick(2)}>
-                    <span className="text">09.2022</span>
+                    <span className="text">09.2023</span>
                     <span
                       className="circle"
                       style={{ filter: `brightness(${filter(2)}%)` }}
@@ -204,4 +176,4 @@ const Timeline = () => {
     </Fragment>
   );
 };
-export default Timeline;
+export default BrujasTimeline;
