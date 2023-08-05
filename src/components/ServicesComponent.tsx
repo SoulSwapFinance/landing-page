@@ -1,3 +1,5 @@
+// import Link from "next/link";
+
 const ServicesComponent = () => {
   return (
     <section id="services">
@@ -23,12 +25,12 @@ const ServicesComponent = () => {
               // border: '1px solid',
               // borderRadius: '10px',
               // padding: '10px',
-              color: '#6A02FF',
+              color: '#8A02FF',
               fontFamily: 'Cursive',
               fontSize: '48px',
               margin: '10px',
               marginTop: '10px',
-              // borderColor: '#6A02FF',
+              // borderColor: '#8A02FF',
             }}
           >
             {`Our Services`}
@@ -53,7 +55,6 @@ const ServicesComponent = () => {
                   <span>01</span>
                 </div>
                 <div className="item_content">
-                  {/* <h3 className="fn_title">Benefits</h3> */}
                   <h3
                     style={{
                       display: 'grid',
@@ -62,22 +63,28 @@ const ServicesComponent = () => {
                       border: '1px solid',
                       borderRadius: '10px',
                       padding: '10px',
-                      color: '#6A02FF',
+                      // color: '#8A02FF',
                       fontFamily: 'Cursive',
                       fontSize: '36px',
                       margin: '10px',
                       marginTop: '10px',
-                      borderColor: '#FFFFFF',
+                      borderColor: '#8A02FF',
                     }}
                   >
+                    <a
+                  href={'https://app.soul.sh'}
+                  target={"_blank"}
+                  rel={'norefferer'}
+                >
                     {`Exchange`}
+                  </a>
                   </h3>
                   <p className="fn_desc fn_animated_text"
                     style={{
                       textAlign: 'center',
                     }}
                   >
-                    {`Exchange a multitude of assets on Fantom Opera, Avalanche Network, and Ethereum.`}
+                    {`Exchange a multitude of tokens on Fantom Opera, Avalanche Network, and Ethereum.`}
                   </p>
                 </div>
               </div>
@@ -88,8 +95,7 @@ const ServicesComponent = () => {
                   <span>02</span>
                 </div>
                 <div className="item_content">
-                  {/* <h3 className="fn_title">High Quality</h3> */}
-                  <h3
+                <h3
                     style={{
                       display: 'grid',
                       alignItems: 'center',
@@ -97,15 +103,21 @@ const ServicesComponent = () => {
                       border: '1px solid',
                       borderRadius: '10px',
                       padding: '10px',
-                      color: '#6A02FF',
+                      // color: '#8A02FF',
                       fontFamily: 'Cursive',
                       fontSize: '36px',
                       margin: '10px',
                       marginTop: '10px',
-                      borderColor: '#FFFFFF',
+                      borderColor: '#8A02FF',
                     }}
                   >
+                    <a
+                  href={'https://app.soul.sh/aggregator'}
+                  target={"_blank"}
+                  rel={'norefferer'}
+                >
                     {`Aggregate`}
+                  </a>
                   </h3>
                   <p className="fn_desc fn_animated_text"
                     style={{
@@ -123,8 +135,7 @@ const ServicesComponent = () => {
                   <span>03</span>
                 </div>
                 <div className="item_content">
-                  {/* <h3 className="fn_title">Exclusive Collection</h3> */}
-                  <h3
+                <h3
                     style={{
                       display: 'grid',
                       alignItems: 'center',
@@ -132,15 +143,21 @@ const ServicesComponent = () => {
                       border: '1px solid',
                       borderRadius: '10px',
                       padding: '10px',
-                      color: '#6A02FF',
+                      // color: '#8A02FF',
                       fontFamily: 'Cursive',
                       fontSize: '36px',
                       margin: '10px',
                       marginTop: '10px',
-                      borderColor: '#FFFFFF',
+                      borderColor: '#8A02FF',
                     }}
                   >
+                    <a
+                  href={'https://app.soul.sh/farms'}
+                  target={"_blank"}
+                  rel={'norefferer'}
+                >
                     {`Summon`}
+                  </a>
                   </h3>
                   <p className="fn_desc fn_animated_text"
                     style={{
@@ -158,8 +175,7 @@ const ServicesComponent = () => {
                   <span>04</span>
                 </div>
                 <div className="item_content">
-                  {/* <h3 className="fn_title">Collaborative Community</h3> */}
-                  <h3
+                <h3
                     style={{
                       display: 'grid',
                       alignItems: 'center',
@@ -167,22 +183,29 @@ const ServicesComponent = () => {
                       border: '1px solid',
                       borderRadius: '10px',
                       padding: '10px',
-                      color: '#6A02FF',
+                      // color: '#8A02FF',
                       fontFamily: 'Cursive',
                       fontSize: '36px',
                       margin: '10px',
                       marginTop: '10px',
-                      borderColor: '#FFFFFF',
+                      borderColor: '#8A02FF',
                     }}
                   >
-                    {`Launch`}
+                    <a
+                  href={'https://app.soul.sh/crosschain'}
+                  target={"_blank"}
+                  rel={'norefferer'}
+                >
+                    {`Crosschain`}
+                  </a>
                   </h3>
                   <p className="fn_desc fn_animated_text"
                     style={{
                       textAlign: 'center',
                     }}
                   >
-                    {`We innovated a decentralized farm that allows you to earn rewards from protocols that launch with us.`}
+                    {`Swap tokens from one blockchain to another using our integrated, crosschain exchange.`}
+                    {/* {`We innovated a decentralized farm that allows you to earn rewards from protocols that launch with us.`} */}
                   </p>
                 </div>
               </div>

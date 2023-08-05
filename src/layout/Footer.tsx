@@ -11,12 +11,12 @@ const Footer = () => {
         <div className="footer_bottom">
           <div className="container">
             <div className="fb_in">
-              <div className="fb_left">
-                <p
+              {/* <div className="fb_left"> */}
+                {/* <p
                   className={'font-bold'}
                 >
-                  {/* Copyright {new Date().getFullYear()} - Designed &amp; */}
-                  {/* Developed by{" "} */}
+                  Copyright {new Date().getFullYear()} - Designed &amp;
+                  Developed by{" "} 
                   <a
                     href="https://twitter.com/SoulSwapFinance"
                     target="_blank"
@@ -24,8 +24,8 @@ const Footer = () => {
                   >
                    Copyright {new Date().getFullYear()} — SoulSwap
                   </a>
-                </p>
-              </div>
+                </p> */}
+              {/* </div> */}
               <div className="fb_right">
                 <ul>
                   <li>
@@ -37,28 +37,31 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link 
-                      href="https://discord.gg/SoulSwap">
-                      <a>
+                    <a 
+                      href="https://discord.gg/SoulSwap"
+                      target={'_blank'}
+                      rel={'noreferrer'}
+                    >
                         Discord
-                      </a>
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link 
-                      href="https://t.me/SoulSwapDeFi">
-                      <a>
+                    <a 
+                      href="https://t.me/SoulSwapDeFi"
+                      target={'_blank'}
+                      rel={'noreferrer'}
+                    >
                         Telegram
-                      </a>
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link 
-                      href="https://links.soulswap.finance">
-                      <a>
+                    <a 
+                      href="https://links.soulswap.finance"
+                      target={'_blank'}
+                      rel={'noreferrer'}
+                    >
                         Links
-                      </a>
-                    </Link>
+                    </a>
                   </li>
                   {/* <li>
                     <Link href="/about">About</Link>
