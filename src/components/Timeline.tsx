@@ -182,21 +182,6 @@ const Timeline = () => {
             </li>
             <li className={`timeline_item ${activeClass(4)}`} data-index={4}>
               <div className="t_item">
-                {/* <div className="t_item_img">
-                  <div className="soul_fn_gallery_1_2">
-                    <div className="gallery_in">
-                      <div className="item row2">
-                        <img src="img/brujas/bruja-4.png" alt="" />
-                      </div>
-                      <div className="item">
-                        <img src="img/brujas/bruja-5.png" alt="" />
-                      </div>
-                      <div className="item">
-                        <img src="img/brujas/bruja-1.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
                 <div className="t_item_info">
                   <p className="fn_date">
                   <span>September 2022</span>
@@ -224,6 +209,37 @@ const Timeline = () => {
                         <span className="text">Read More</span>
                       </a>
                     </Link>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className={`timeline_item ${activeClass(5)}`} data-index={5}>
+              <div className="t_item">
+                <div className="t_item_info">
+                  <p className="fn_date">
+                  <span>March 2023</span>
+                  </p>
+                  <h3 className="fn_title">
+                    <a
+                      href="https://soulswapfinance.medium.com/introducing-defarms-d6f6c9ac3fa6"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      DeFarms Launch
+                    </a>
+                  </h3>
+                  <p className="fn_desc">
+                  DeFarms has been a work in progress for over a year and we strongly believe in its transformative potential. Learn more about our exciting DeFarm Campaigns and discover how this benefits protocols launching with us.
+                  </p>
+                  <p className="fn_read">
+                      <a
+                        href="https://soulswapfinance.medium.com/introducing-defarms-d6f6c9ac3fa6"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="soul_fn_button only_text"
+                      >
+                        <span className="text">Read More</span>
+                    </a>
                   </p>
                 </div>
               </div>
@@ -281,7 +297,7 @@ const Timeline = () => {
                     <span className="text">12.2021</span>
                     <span
                       className="circle"
-                      style={{ filter: `brightness(${filter(1)}%)` }}
+                      style={{ filter: `brightness(${filter(2)}%)` }}
                     />
                   </a>
                 </li>
@@ -290,7 +306,7 @@ const Timeline = () => {
                     <span className="text">05.2022</span>
                     <span
                       className="circle"
-                      style={{ filter: `brightness(${filter(2)}%)` }}
+                      style={{ filter: `brightness(${filter(3)}%)` }}
                     />
                   </a>
                 </li>
@@ -299,7 +315,16 @@ const Timeline = () => {
                     <span className="text">09.2022</span>
                     <span
                       className="circle"
-                      style={{ filter: `brightness(${filter(3)}%)` }}
+                      style={{ filter: `brightness(${filter(4)}%)` }}
+                    />
+                  </a>
+                </li>
+                <li className={activeClass(5)}>
+                  <a onClick={() => onClick(5)}>
+                    <span className="text">03.2023</span>
+                    <span
+                      className="circle"
+                      style={{ filter: `brightness(${filter(5)}%)` }}
                     />
                   </a>
                 </li>
