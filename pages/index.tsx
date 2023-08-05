@@ -29,10 +29,10 @@ const Index = () => {
                   // border: '1px solid',
                   // borderRadius: '10px',
                   padding: '10px',
-                  color: '#6A02FF',
+                  color: '#8A02FF',
                   fontFamily: 'Cursive',
                   fontSize: '48px',
-                  // borderColor: '#6A02FF',
+                  // borderColor: '#8A02FF',
                 }}
               >
                 {`SoulSwap Finance`}
@@ -57,7 +57,7 @@ const Index = () => {
                   borderRadius: '10px',
                   margin: '10px',
                   padding: '10px',
-                  borderColor: '#6A02FF',
+                  borderColor: '#8A02FF',
                   animation: 'pulse 2s',
                 }}
               >
@@ -96,7 +96,7 @@ const Index = () => {
                 borderRadius: '10px',
                 margin: '10px',
                 padding: '10px',
-                // borderColor: '#6A02FF',
+                // borderColor: '#8A02FF',
                 animation: 'pulse 2s',
               }}
             > */}
@@ -107,7 +107,7 @@ const Index = () => {
                   border: '1px solid',
                   borderRadius: '10px',
                   padding: '18px',
-                  color: '#6A02FF',
+                  color: '#8A02FF',
                   fontFamily: 'Cursive',
                   fontSize: '24px',
                   margin: '10px',
@@ -137,7 +137,7 @@ const Index = () => {
             margin: '10px',
             border: '2px solid',
             borderRadius: '4px',
-            borderColor: '#6A02FF',
+            borderColor: '#8A02FF',
           }}
         >
           <div className="bg_image" data-bg-img="img/brujas/bruja-5.png" />

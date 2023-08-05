@@ -26,10 +26,9 @@ const Header = () => {
         </div>
         {/* Nav Footer */}
         <div className={`nav_footer ${toggle ? "ready" : ""}`}>
-          
         </div>
       </div>
-      <header className="soul_fn_header">
+       <header className="soul_fn_header">
         <div className="container">
           <div className="header_in">
             <div
@@ -52,8 +51,11 @@ const Header = () => {
              />
              </Link>
             </div>
-            {/* <WalletConnect /> */}
-            <div
+              <WalletConnect />
+            </div>
+            </div>
+            </header>
+            {/* <div
               style={{
                 display: 'flex', 
                 gap: '12px', 
@@ -72,7 +74,7 @@ const Header = () => {
                     border: '1px solid #fff',
                     padding: '0 12px',
                     borderRadius: '12px',
-                    borderColor: '#6A02FF'
+                    borderColor: '#8A02FF'
                   }}
                 >
                   {'Discord'}
@@ -88,13 +90,13 @@ const Header = () => {
                     border: '1px solid #fff',
                     padding: '0 12px',
                     borderRadius: '12px',
-                    borderColor: '#6A02FF'
+                    borderColor: '#8A02FF'
                   }}
                 >
                   {'Twitter'}
                 </div>
               </Link>
-              {/* <Link
+              <Link
                 href="https://docs.soulswap.finance"
                 target="_blank"
                 rel="noreferrer"
@@ -104,32 +106,33 @@ const Header = () => {
                     border: '1px solid #fff',
                     padding: '0 12px',
                     borderRadius: '12px',
-                    borderColor: '#6A02FF'
+                    borderColor: '#8A02FF'
                   }}
                 >
                   {'Docs'}
                 </div>
-              </Link> */}
-              <Link
+              </Link>
+              <a
                 href="https://links.soulswap.finance"
                 target="_blank"
                 rel="noreferrer"
-              >
+                >
                 <div
                   style={{
                     border: '1px solid #fff',
                     padding: '0 12px',
                     borderRadius: '12px',
-                    borderColor: '#6A02FF'
+                    borderColor: '#8A02FF',
+                    color: '#FFFFFF',
                   }}
-                >
+                  >
                   {'Links'}
-                </div>
-              </Link>
+                  </div>
+              </a>
           </div>
           </div>
         </div>
-      </header>
+      </header> */}
       {/* !Header */}
     </Fragment>
   );
