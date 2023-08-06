@@ -8,7 +8,7 @@ const BetaLaunch = () => {
     const shareLink = `https://soul.sh${router.asPath}`
 
     return (
-        <Layout pageName={"Roadmap Single"}>
+        <Layout pageName={"Beta Launch"}>
             <div className="soul_fn_roadmap soul_fn_single">
                 {/* Single Background */}
                 <div className="single_bg" />
@@ -36,7 +36,7 @@ const BetaLaunch = () => {
                                 <span className="separator">/</span>
                                 {/* <Link href="../Roadmap">RoadMap</Link> */}
                                 {/* <span className="separator">/</span> */}
-                                <span className="current">Bruja NFT Launch</span>
+                                <span className="current">Beta Launch</span>
                             </p>
                         </div>
                         <div className="single_img">
