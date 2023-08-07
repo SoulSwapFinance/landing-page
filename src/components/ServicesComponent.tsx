@@ -71,7 +71,7 @@ const ServicesComponent = () => {
                       borderColor: '#8A02FF',
                     }}
                   >
-                    <a
+                <a
                   href={'https://app.soul.sh'}
                   target={"_blank"}
                   rel={'norefferer'}
