@@ -183,7 +183,6 @@ const ServicesComponent = () => {
                       border: '1px solid',
                       borderRadius: '10px',
                       padding: '10px',
-                      // color: '#8A02FF',
                       fontFamily: 'Cursive',
                       fontSize: '36px',
                       margin: '10px',
@@ -206,6 +205,86 @@ const ServicesComponent = () => {
                   >
                     {`Swap tokens from one blockchain to another using our integrated, crosschain exchange.`}
                     {/* {`We innovated a decentralized farm that allows you to earn rewards from protocols that launch with us.`} */}
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <div className="item_num">
+                  <span>05</span>
+                </div>
+                <div className="item_content">
+                <h3
+                    style={{
+                      display: 'grid',
+                      alignItems: 'center',
+                      textAlign: 'center',
+                      border: '1px solid',
+                      borderRadius: '10px',
+                      padding: '10px',
+                      // color: '#8A02FF',
+                      fontFamily: 'Cursive',
+                      fontSize: '36px',
+                      margin: '10px',
+                      marginTop: '10px',
+                      borderColor: '#8A02FF',
+                    }}
+                  >
+                    <a
+                  href={'https://app.soul.sh/bonds'}
+                  target={"_blank"}
+                  rel={'norefferer'}
+                >
+                    {`Bond`}
+                  </a>
+                  </h3>
+                  <p className="fn_desc fn_animated_text"
+                    style={{
+                      textAlign: 'center',
+                    }}
+                  >
+                    {`We created a novel bonding mechanism to incentivize liquidity which, unlike our competitors, is owned by the protocol, instead of rented.`}
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <div className="item_num">
+                  <span>06</span>
+                </div>
+                <div className="item_content">
+                <h3
+                    style={{
+                      display: 'grid',
+                      alignItems: 'center',
+                      textAlign: 'center',
+                      border: '1px solid',
+                      borderRadius: '10px',
+                      padding: '10px',
+                      // color: '#8A02FF',
+                      fontFamily: 'Cursive',
+                      fontSize: '36px',
+                      margin: '10px',
+                      marginTop: '10px',
+                      borderColor: '#8A02FF',
+                    }}
+                  >
+                    <a
+                  href={'https://app.soul.sh/defarms'}
+                  target={"_blank"}
+                  rel={'norefferer'}
+                >
+                    {`Launch`}
+                  </a>
+                  </h3>
+                  <p className="fn_desc fn_animated_text"
+                    style={{
+                      textAlign: 'center',
+                    }}
+                  >
+                    {`We innovated a decentralized farm that allows you to earn rewards from protocols that launch with us.`}
                   </p>
                 </div>
               </div>
