@@ -82,11 +82,11 @@ const Index = () => {
             className="soul_fn_down magic-hover magic-hover__square"
           >
             {/* <span className="text">Scroll Down</span> */}
-            <Link
+            {/* <Link
               href={`https://exchange.soulswap.finance`}
               target="_blank"
               rel="noreferrer"
-            >
+            > */}
               {/* <p
               style={{
                 alignItems: 'center',
@@ -100,25 +100,32 @@ const Index = () => {
                 animation: 'pulse 2s',
               }}
             > */}
-
               <h2
                 style={{
-                  display: 'flex',
+                  display: 'grid',
+                  alignItems: 'center',
+                  textAlign: 'center',
                   border: '1px solid',
                   borderRadius: '10px',
-                  padding: '18px',
-                  color: '#8A02FF',
+                  padding: '16px',
+                  // color: '#8A02FF',
                   fontFamily: 'Cursive',
                   fontSize: '24px',
                   margin: '10px',
                   marginTop: '10px',
-                  borderColor: '#FFFFFF',
+                  borderColor: '#8A02FF',
                 }}
               >
-                {`Exchange`}
+                <a
+                  href={'https://app.soul.sh'}
+                  target={"_blank"}
+                  rel={'norefferer'}
+                >
+                  {`Exchange`}
+                </a>
               </h2>
               {/* </p> */}
-            </Link>
+            {/* </Link> */}
             <span className="icon">
               <img src="svg/right-arr.svg" alt="" className="fn__svg" />
             </span>

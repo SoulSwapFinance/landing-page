@@ -5,12 +5,12 @@ import {
   animationText,
   dataBgImg,
   imgToSVG,
-  progressTotop,
+  // progressTotop,
   stickyNav,
 } from "../utils"
 import Footer from "./Footer"
 import Header from "./Header"
-import ScrollTop from "./ScrollTop"
+// import ScrollTop from "./ScrollTop"
 
 const Layout = ({ children, pageName }) => {
   useEffect(() => {
@@ -18,7 +18,7 @@ const Layout = ({ children, pageName }) => {
     dataBgImg();
     imgToSVG();
     window.addEventListener("scroll", stickyNav);
-    window.addEventListener("scroll", progressTotop);
+    // window.addEventListener("scroll", progressTotop);
   }, []);
   return (
     <Fragment>
