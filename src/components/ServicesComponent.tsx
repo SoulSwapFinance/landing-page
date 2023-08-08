@@ -289,6 +289,86 @@ const ServicesComponent = () => {
                 </div>
               </div>
             </li>
+            <li>
+              <div className="item">
+                <div className="item_num">
+                  <span>07</span>
+                </div>
+                <div className="item_content">
+                <h3
+                    style={{
+                      display: 'grid',
+                      alignItems: 'center',
+                      textAlign: 'center',
+                      border: '1px solid',
+                      borderRadius: '10px',
+                      padding: '10px',
+                      // color: '#8A02FF',
+                      fontFamily: 'Cursive',
+                      fontSize: '36px',
+                      margin: '10px',
+                      marginTop: '10px',
+                      borderColor: '#8A02FF',
+                    }}
+                  >
+                    <a
+                  href={'https://app.soul.sh/exchange/bridge'}
+                  target={"_blank"}
+                  rel={'norefferer'}
+                >
+                    {`Bridge`}
+                  </a>
+                  </h3>
+                  <p className="fn_desc fn_animated_text"
+                    style={{
+                      textAlign: 'center',
+                    }}
+                  >
+                    {`Bridge USDC, WETH, and WBTC tokens to and from blockchains such as Ethereum, Fantom, and Avalanche.`}
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <div className="item_num">
+                  <span>08</span>
+                </div>
+                <div className="item_content">
+                <h3
+                    style={{
+                      display: 'grid',
+                      alignItems: 'center',
+                      textAlign: 'center',
+                      border: '1px solid',
+                      borderRadius: '10px',
+                      padding: '10px',
+                      // color: '#8A02FF',
+                      fontFamily: 'Cursive',
+                      fontSize: '36px',
+                      margin: '10px',
+                      marginTop: '10px',
+                      borderColor: '#8A02FF',
+                    }}
+                  >
+                    <a
+                  href={'https://app.soul.sh/autostake'}
+                  target={"_blank"}
+                  rel={'norefferer'}
+                >
+                    {`Stake`}
+                  </a>
+                  </h3>
+                  <p className="fn_desc fn_animated_text"
+                    style={{
+                      textAlign: 'center',
+                    }}
+                  >
+                    {`Participate in our auto-compounding staking vault, where you can deposit SOUL for more SOUL, which compounds up to 3x daily.`}
+                  </p>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
         {/* !Services */}
