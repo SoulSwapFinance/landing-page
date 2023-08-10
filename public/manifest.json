@@ -1,8 +1,8 @@
 {
-    "name": "Bruja",
-    "short_name": "Bruja",
+    "name": "SoulSwap Finance",
+    "short_name": "SoulSwap",
     "lang": "en",
-    "description": "Bruja NFTs",
+  "description": "Swap, earn, limit, bridge, and launch all on one community-driven ecosystem",
     "background_color": "#0D0415",
     "theme_color": "#ff57d8",
     "dir": "ltr",
@@ -10,7 +10,6 @@
     "orientation": "portrait",
     "scope": "/",
     "start_url": "/",
-    "splash_pages": null,
     "prefer_related_applications": false,
     "iconPath": "favicon.png",
     "icons": [
