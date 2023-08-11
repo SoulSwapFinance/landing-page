@@ -28,12 +28,12 @@ const Layout = ({ children, pageName }) => {
         <link property="og:title" content="SoulSwap Finance" />
         <link property="description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
         <link property="og:description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
-        <link property="og:image" content="/images/soulswap-cover.png" />
+        <link property="og:image" content="https://soul.sh/images/soulswap-cover.png" />
         <link property="og:url" content="https://soul.sh" />
         
         <link property="twitter:card" content="summary_large_image" />
         <link property="twitter:description" content="Forever & Fucking Always" />
-        <link property="twitter:image" content="/images/soulswap-cover.png" />
+        <link property="twitter:image" content="https://soul.sh/images/soulswap-cover.png" />
 
         {/* <link property="twitter:card" content="summary_large_image" /> */}
         {/* <link property="twitter:title" content="SoulSwap Finance" />
