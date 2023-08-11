@@ -23,20 +23,25 @@ const Layout = ({ children, pageName }) => {
   return (
     <Fragment>
       <Head>
-        <title>
-          <meta charSet="UTF-8" />
-          <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <meta property="og:title" content="SoulSwap Finance" />
-          <meta name="twitter:title" content="SoulSwap Finance" />
-          <meta name="description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
-          <meta property="og:description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
-          <meta name="twitter:description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
+        <meta charSet="utf-8" />
+        <link rel="icon" href="/favicon.ico" />
+        <link property="og:title" content="SoulSwap Finance" />
+        <link property="description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
+        <link property="og:description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
+        <link property="og:image" content="/images/soulswap-cover.png" />
+        <link property="og:url" content="https://soul.sh" />
+        
+        <link property="twitter:card" content="summary_large_image" />
+        <link property="twitter:description" content="Forever & Fucking Always" />
+        <link property="twitter:image" content="/images/soulswap-cover.png" />
 
-          <meta property="og:image" content="/soulswap-cover.png" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
-          <meta name="twitter:image" content="/soulswap-cover.png" />
+        {/* <link property="twitter:card" content="summary_large_image" /> */}
+        {/* <link property="twitter:title" content="SoulSwap Finance" />
+        <link property="twitter:site" content="@soulswapfinance" />
+        <link property="twitter:creator" content="@soulswapfinance" />
+        <link property="twitter:description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
+        <link property="twitter:image" content="/images/soulswap-cover.png" /> */}
+        <title>
           SoulSwap | {pageName}
         </title>
       </Head>
