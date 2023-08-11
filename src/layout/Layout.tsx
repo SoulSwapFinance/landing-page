@@ -23,7 +23,7 @@ const Layout = ({ children, pageName }) => {
   return (
     <Fragment>
       <Head>
-        <meta charSet="utf-8" />
+        <link charSet="utf-8" />
         <link rel="icon" href="/favicon.ico" />
         <link property="og:title" content="SoulSwap Finance" />
         <link property="description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
@@ -32,6 +32,7 @@ const Layout = ({ children, pageName }) => {
         <link property="og:url" content="https://soul.sh" />
         
         <link property="twitter:card" content="summary_large_image" />
+        <link property="twitter:title" content="SoulSwap Finance" />
         <link property="twitter:description" content="Forever & Fucking Always" />
         <link property="twitter:image" content="https://soul.sh/images/soulswap-cover.png" />
 
