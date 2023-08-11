@@ -24,7 +24,20 @@ const Layout = ({ children, pageName }) => {
     <Fragment>
       <Head>
         <title>
-          Soul | {pageName}
+          <meta charSet="UTF-8" />
+          <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta property="og:title" content="SoulSwap Finance" />
+          <meta name="twitter:title" content="SoulSwap Finance" />
+          <meta name="description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
+          <meta property="og:description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
+          <meta name="twitter:description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
+
+          <meta property="og:image" content="/soulswap-cover.png" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:description" content="Swap, earn, limit, bridge, and launch all on one community-driven ecosystem" />
+          <meta name="twitter:image" content="/soulswap-cover.png" />
+          SoulSwap | {pageName}
         </title>
       </Head>
       <VideoPopup />
