@@ -1,53 +1,79 @@
-import React, { Component } from 'react'
-import Dapp from './Dapp'
-import { categories, dapps } from '../../data/all-dapps'
-// import './index.css'
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
-
-interface Category {
+interface Dapp {
     name: string;
-    icon: any;
-    color: string;
     url: string;
     description: string;
-    dapps?: [
-        {
-            name: string,
-            url: string,
-            description: string,
-            icon: string
-        },
-    ]
+    icon: any;
 }
+export default function Dapp(dapp: Dapp) {
 
-export default function Dapps () {
-    // render(){
+    const name = dapp.name;
+    const icon = dapp.icon;
+    // const color = dapp.color;
+    const url = dapp.url;
+    // const url = `/${name.toLowerCase().replace(" ", "-")}`;
+
         return (
-            // <div className={'explore-dapps'}> 
-            <div 
-                className={'explore-dapps'}
-            //     style={{ 
-            //         display: 'flex', 
-            //         flexDirection: 'row', 
-            //         paddingBottom: '18px', 
-            //         flexWrap: 'wrap',
-            //         width: '100%', 
-            //         height: '100%', 
-            // }}
-            > 
-                { 
-                    dapps.map( (dapp) => (
-                        <Dapp 
-                            // data={dapp}
-                            name={dapp.name}
-                            icon={dapp.icon}
-                            // color={dapp.color}
-                            key={dapp.name}
-                            url={dapp.url} 
-                            description={dapp.description}                            // dapps={dapp.dapps}
-                        />
-                    ))
-                }
-            </div>
-        );
+            <Link
+                href={url}
+                onClick={() => dapp.url}
+                style={{
+                    display: 'flex',
+                    flex: 1,
+                    minWidth: '50%',
+                }}
+            >
+                <div
+                    style={{
+                        display: 'flex',
+                        flex: 1,
+                        height: 64,
+                        background: '#FFFFFF',
+                        boxShadow: '0px 2px 8px rgba(0, 0, 0, 0.25)',
+                        borderRadius: 8,
+                        textAlign: 'center',
+                        alignItems: 'center',
+                        minWidth: 150,
+                        margin: 7,
+                        paddingLeft: 15,
+                        paddingRight: 8,
+                    }}
+                >
+                    {/* <FontAwesomeIcon
+                        icon={icon}
+                        color={color}
+                        style={{
+                            fontSize: 32,
+                            lineHeight: 32,
+                            width: 32,
+                            height: 32,
+                        }}
+                    /> */}
+                    <Image
+                        src={dapp.icon}
+                        alt={dapp.name}
+                        width={32}
+                        height={32}
+                    />
+                    <div
+                        style={{
+                            display: "flex",
+                            justifyContent: 'center',
+                            alignContent: 'center',
+                            fontStyle: 'normal',
+                            fontSize: '18px',
+                            fontWeight: 'bold',
+                            color: '#24292E',
+                            padding: '8px',
+                            alignItems: 'center',
+                        }}
+                    >
+                        {name}
+                    </div>
+                </div>
+            </Link>
+        )
 }

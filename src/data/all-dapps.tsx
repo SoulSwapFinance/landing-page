@@ -8,7 +8,7 @@ interface Dapps {
     icon: string;
 }
 
-export const dapps: Dapps[] = [
+export const soulDapps: Dapps[] = [
     {
         name: 'Gitbook',
         url: 'https://soulswap.gitbook.io/', /* todo */
@@ -22,6 +22,43 @@ export const dapps: Dapps[] = [
         icon: '/images/dapps/github.png'
     },
 ]
+
+export const earnDapps: Dapps[] = [
+    {
+        name: 'Stream Claim',
+        url: 'https://app.soulswap.finance/streams',
+        description: 'Claim your SOUL Stream',
+        icon: '/images/dapps/gift-box.png'
+    },
+    {
+        name: 'Airdrop Claim',
+        url: 'https://app.soulswap.finance/airdrop',
+        description: 'Claim your SOUL Airdrop',
+        icon: '/images/dapps/gift-box.png'
+    },
+    {
+        name: 'Liquidity Mine',
+        url: 'https://app.soulswap.finance/farms',
+        description: 'Provide liquidity on our exchange and recieve rewards paid out in SOUL for participating in our network.',
+        icon: '/images/dapps/mining.png'
+    },
+    {
+        name: 'Soul Staking',
+        url: 'https://app.soulswap.finance/stake',
+        description: 'Single asset staking (SAS) DApp designed to enable users to deposit SOUL to be rewarded SOUL and tokens from newly launched projects.',
+        icon: '/images/dapps/mining-cart.png'
+    },
+]
+
+export const dapps: Dapps[] = [
+    soulDapps[0],
+    soulDapps[1],
+    earnDapps[0],
+    earnDapps[1],
+    earnDapps[2],
+    earnDapps[3],
+]
+
 interface Category {
     name: string;
     icon: any;
@@ -55,35 +92,15 @@ export const categories: Category[] =  [
         ],
     },
     {
-        name: 'DAPPS',
+        name: 'EARN',
         icon: faMoneyBillWave,
         color: '#3934A1',
-        url: '/dApps/categories/dapps',
+        url: '/dApps/categories/earn',
         dapps: [
-            {
-                name: 'Stream Claim',
-                url: 'https://app.soulswap.finance/streams',
-                description: 'Claim your SOUL Stream',
-                icon: '/images/dapps/gift-box.png'
-            },
-            {
-                name: 'Airdrop Claim',
-                url: 'https://app.soulswap.finance/airdrop',
-                description: 'Claim your SOUL Airdrop',
-                icon: '/images/dapps/gift-box.png'
-            },
-            {
-                name: 'Liquidity Mine',
-                url: 'https://app.soulswap.finance/farms',
-                description: 'Provide liquidity on our exchange and recieve rewards paid out in SOUL for participating in our network.',
-                icon: '/images/dapps/mining.png'
-            },
-            {
-                name: 'Soul Staking',
-                url: 'https://app.soulswap.finance/stake',
-                description: 'Single asset staking (SAS) DApp designed to enable users to deposit SOUL to be rewarded SOUL and tokens from newly launched projects.',
-                icon: '/images/dapps/mining-cart.png'
-            },
+            earnDapps[0],
+            earnDapps[1],
+            earnDapps[2],
+            earnDapps[3],
         ],
     },
     {

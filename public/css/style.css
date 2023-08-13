@@ -4732,56 +4732,9 @@ a.full_link{
     color: #000000; /* todo */
 }
 
-.dapp-category-container{
-	    display: flex;
-	    flex: 1;
-	    min-width: 50%;
-	}
-	
-	.dapp-category{
-	    display: flex;
-	    flex: 1;
-	    height: 64px;
-	    background: #FFFFFF;
-	    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
-	    border-radius: 8px;
-	    text-align: center;
-	    align-items: center;
-	    min-width: 150px;
-	    margin: 7px;
-	    padding-left: 15px;
-	    padding-right: 8px;
-	}
-	
-	.dapp-category:nth-child(even) {
-	    margin-right: 0px;
-	}
-	
-	.dapp-category-icon {
-	    font-size: 32px;
-	    font-size: 32px;
-	    line-height: 32px;
-	    width: 32px;
-	    height: 32px;
-	}
-	
-	.dapp-category-name {
-	    display: flex;
-	    font-style: normal;
-	    font-weight: bold;
-	    font-size: 24px;
-	    color: #24292E;
-	    padding: 8px;
-	    align-items: center;
-	}
 
-.explore-dapps {
-	display: flex;
-	flex: 1;
-	flex-direction: row;
-	padding-bottom: 18px;
-	flex-wrap: wrap;
-}
+
+
 
 .header {
     z-index: 0;
@@ -4840,28 +4793,3 @@ a.full_link{
 	}
   
   }
-
-  .autocomplete {
-    position: absolute;
-    top: 163px;
-    z-index: 999999;
-    height: 42px;
-    left: 16px;
-    right: 16px;
-    background: #FFFFFF; /* todo */
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25); /* todo */
-    border-radius: 20px;
-    padding-left: 16px;
-    padding-right: 16px;
-    display: flex;
-}
-
-.autocomplete-input {
-    width: 100%;
-    font-size: 16px;
-    outline-width: 0;
-    border: 0px;
-    justify-content: center;
-    text-align: center;
-    -webkit-appearance: none;
-}

@@ -27,19 +27,56 @@ export default function DappCategory(category: Category) {
     // const url = `/${name.toLowerCase().replace(" ", "-")}`;
 
         return (
-            // eslint-disable-next-line jsx-a11y/anchor-is-valid
             <Link
-                className={'dapp-category-container'}
                 href={url}
-                // onClick={category.link}
+                onClick={() => category.url}
+                style={{
+                    display: 'flex',
+                    flex: 1,
+                    minWidth: '50%',
+                }}
             >
-                < div className={'dapp-category'} >
+                <div
+                    style={{
+                        display: 'flex',
+                        flex: 1,
+                        height: 64,
+                        background: '#FFFFFF',
+                        boxShadow: '0px 2px 8px rgba(0, 0, 0, 0.25)',
+                        borderRadius: 8,
+                        textAlign: 'center',
+                        alignItems: 'center',
+                        minWidth: 150,
+                        margin: 7,
+                        paddingLeft: 15,
+                        paddingRight: 8,
+                    }}
+                >
                     <FontAwesomeIcon
-                        className={'dapp-category-icon'}    
                         icon={icon}
                         color={color}
+                        style={{
+                            fontSize: 32,
+                            lineHeight: 32,
+                            width: 32,
+                            height: 32,
+                        }}
                     />
-                    < span className={'dapp-category-name'} >{name}</span>
+                    <div
+                        style={{
+                            display: "flex",
+                            justifyContent: 'center',
+                            alignContent: 'center',
+                            fontStyle: 'normal',
+                            fontSize: '18px',
+                            fontWeight: 'bold',
+                            color: '#24292E',
+                            padding: '8px',
+                            alignItems: 'center',
+                        }}
+                    >
+                        {name}
+                    </div>
                 </div>
             </Link>
         )

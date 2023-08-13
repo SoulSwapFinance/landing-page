@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 // import { Link } from "react-router-dom";
 import Link from 'next/link'
 import Image from 'next/image'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Layout from 'layout/Layout';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import Layout from 'layout/Layout';
+
 
 interface Dapp {
     name: string;
@@ -20,32 +21,61 @@ export default function Dapp(dapp: Dapp) {
     const url = dapp.url;
     // const url = `/${name.toLowerCase().replace(" ", "-")}`;
 
-        return (
-            <div className="soul_fn_content">
+    return (
+        <div
+            style={{
+                background: '#F6F8FA',
+                borderRadius: 8,
+                // margin: 7 
+            }}
+        >
             {/* // eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <Link
-                className={'dapp-category-container'}
+                style={{
+                    display: 'flex',
+                    flex: 1,
+                    minWidth: '50%',
+                }}
                 href={url}
-                // onClick={category.link}
+            // onClick={category.link}
             >
-                < div className={'dapp-category'} >
-                    <Image 
+                <div
+                    style={{
+                        display: 'flex',
+                        flex: 1,
+                        height: 64,
+                        background: '#FFFFFF',
+                        boxShadow: '0px 2px 8px rgba(0, 0, 0, 0.25)',
+                        borderRadius: 8,
+                        textAlign: 'center',
+                        alignItems: 'center',
+                        minWidth: 150,
+                        margin: 7,
+                        paddingLeft: 15,
+                        paddingRight: 8,
+                    }}
+                >
+                    <Image
                         src={icon}
                         alt={name}
                         height={50}
                         width={50}
                     />
-                    {/* <FontAwesomeIcon
-                        className={'dapp-category-icon'} 
-                        icon={icon}   
-                        // icon={icon}
-                        // color={color}
-                    /> */}
-                    <div className={'dapp-category-name'}>
+                    <div
+                        style={{
+                            display: "flex",
+                            fontStyle: 'normal',
+                            fontSize: '18px',
+                            fontWeight: 'bold',
+                            color: '#24292E',
+                            padding: '8px',
+                            alignItems: 'center',
+                        }}
+                    >
                         {name}
                     </div>
                 </div>
             </Link>
-            </div>
-        )
+        </div>
+    )
 }
