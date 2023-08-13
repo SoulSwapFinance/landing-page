@@ -1,3 +1,5 @@
+import URL from 'url-parse'
+
 export const animationText = () => {
   const fn_animated_text = document.querySelectorAll(".fn_animated_text");
   fn_animated_text.forEach((text) => {
@@ -136,3 +138,94 @@ export const getPagination = (totalNumber, sort) => {
     .map((_, idx) => idx + 1);
   return arr;
 };
+
+/**
+ * Returns a sanitized url, which could be a search engine url if
+ * a keyword is detected instead of a url
+ *
+ * @param {string} input - String corresponding to url input
+ * @param {string} searchEngine - Protocol string to append to URLs that have none
+ * @param {string} defaultProtocol - Protocol string to append to URLs that have none
+ * @returns {string} - String corresponding to sanitized input depending if it's a search or url
+ */
+export default function onUrlSubmit(input, searchEngine = 'Google', defaultProtocol = 'https://') {
+	//Check if it's a url or a keyword
+	const res = input.match(/^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w.-]+)+[\w\-._~:/?#[\]@!&',;=.+]+$/g);
+	if (res === null) {
+		// In case of keywords we default to google search
+		let searchUrl = 'https://www.google.com/search?q=' + escape(input);
+		if (searchEngine === 'Google') {
+			searchUrl = 'https://google.com/?q=' + escape(input);
+		}
+		return searchUrl;
+	}
+	const hasProtocol = input.match(/^[a-z]*:\/\//);
+	const sanitizedURL = hasProtocol ? input : `${defaultProtocol}${input}`;
+	return sanitizedURL;
+}
+
+export function getHost(url) {
+	const urlObj = new URL(url);
+	const { hostname } = urlObj;
+	return hostname;
+}
+
+// ANALYTICS //
+/* eslint-disable no-undef */
+// export function trackEvent(action, data){
+//   if(mixpanel && window.__mmMetametrics && mixpanel.track){
+//       const category = action.category
+//       delete action.category
+//       mixpanel.track(
+//           category,
+//           {...action, ...data},
+//       );
+//   }
+// }
+
+// const generateOpt = (category, action, name) => ({ category, action, name });
+
+// const NAMES = {
+//   DAPP: 'Dapp',
+//   FEATURED_DAPP: 'Featured',
+// DAPP_CATEGORY: 'Category',
+//   HOMEPAGE_TAB: 'Homepage',
+// };
+
+// const ACTIONS = {
+// CLICK: 'Click',
+// IMPRESSION: 'Impression',
+// };
+
+// const CATEGORIES = {
+// BROWSER_HOME: 'Browser Home',
+// };
+
+// export const ANALYTICS_EVENT_OPTS = {
+// CLICKS_DAPP: generateOpt(
+//   CATEGORIES.BROWSER_HOME,
+//   ACTIONS.CLICK,
+//   NAMES.DAPP
+//   ),
+//   CLICKS_FEATURED_DAPP: generateOpt(
+//   CATEGORIES.BROWSER_HOME,
+//   ACTIONS.CLICK,
+//   NAMES.FEATURED_DAPP
+// ),
+// CLICKS_DAPP_CATEGORY: generateOpt(
+//   CATEGORIES.BROWSER_HOME,
+//   ACTIONS.CLICK,
+//   NAMES.DAPP_CATEGORY
+// ),
+// CLICKS_HOMEPAGE_TAB: generateOpt(
+//   CATEGORIES.BROWSER_HOME,
+//   ACTIONS.CLICK,
+//   NAMES.HOMEPAGE_TAB
+//   ),
+//   IMPRESSION: generateOpt(
+//   CATEGORIES.BROWSER_HOME,
+//   ACTIONS.IMPRESSION,
+// ),
+// };
+
+// // export default {trackEvent,ANALYTICS_EVENT_OPTS }
