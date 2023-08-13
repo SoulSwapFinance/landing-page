@@ -1,10 +1,10 @@
-import Head from "next/head";
-import { Fragment } from "react";
-import "../styles/globals.css";
-// import  { AppProps } from 'next/app';
-import { WagmiConfig, createConfig } from 'wagmi';
-import { mainnet, avalanche, fantom } from 'wagmi/chains';
-import { ConnectKitProvider, getDefaultConfig } from 'connectkit';
+import Head from "next/head"
+import { Fragment } from "react"
+import "../styles/globals.css"
+// import  { AppProps } from 'next/app'
+import { WagmiConfig, createConfig } from 'wagmi'
+import { mainnet, avalanche, fantom } from 'wagmi/chains'
+import { ConnectKitProvider, getDefaultConfig } from 'connectkit'
 
 const config = createConfig(
   getDefaultConfig({

@@ -1,15 +1,15 @@
-// import Link from "next/link";
+// import Link from "next/link"
 // import { Fragment, useState } from "react"
-import Layout from "../src/layout/Layout";
-import PageBanner from "../src/layout/PageBanner";
-import Drops from '../src/components/Drops';
+import Layout from "../src/layout/Layout"
+import PageBanner from "../src/layout/PageBanner"
+import Drops from '../src/components/Drops'
 // import MintButton from "../src/components/MintButton"
 // import WalletConnect from 'components/WalletConnect'
 // import { useAccount } from 'wagmi'
-import AboutComponent from "../src/components/AboutComponent";
+import AboutComponent from "../src/components/AboutComponent"
 
 const Collection = () => {
-  // const { address, isConnecting, isDisconnected } = useAccount();
+  // const { address, isConnecting, isDisconnected } = useAccount()
 
   return (
     <Layout pageName={"Collection"}>

@@ -1,8 +1,8 @@
-import ServicesComponent from "../src/components/ServicesComponent";
-import Timeline from "../src/components/Timeline";
-import Link from 'next/link';
-import Layout from "../src/layout/Layout";
-import Image from 'next/image';
+import ServicesComponent from "../src/components/ServicesComponent"
+import Timeline from "../src/components/Timeline"
+import Link from 'next/link'
+import Layout from "../src/layout/Layout"
+import Image from 'next/image'
 
 const Index = () => {
   return (
@@ -87,7 +87,7 @@ const Index = () => {
               target="_blank"
               rel="noreferrer"
             > */}
-              {/* <p
+            {/* <p
               style={{
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -100,31 +100,31 @@ const Index = () => {
                 animation: 'pulse 2s',
               }}
             > */}
-              <h2
-                style={{
-                  display: 'grid',
-                  alignItems: 'center',
-                  textAlign: 'center',
-                  border: '1px solid',
-                  borderRadius: '10px',
-                  padding: '16px',
-                  // color: '#8A02FF',
-                  fontFamily: 'Cursive',
-                  fontSize: '24px',
-                  margin: '10px',
-                  marginTop: '10px',
-                  borderColor: '#8A02FF',
-                }}
+            {/* <h2
+              style={{
+                display: 'grid',
+                alignItems: 'center',
+                textAlign: 'center',
+                border: '1px solid',
+                borderRadius: '10px',
+                padding: '16px',
+                // color: '#8A02FF',
+                fontFamily: 'Cursive',
+                fontSize: '24px',
+                margin: '10px',
+                marginTop: '10px',
+                borderColor: '#8A02FF',
+              }}
+            >
+              <a
+                href={'https://app.soul.sh'}
+                target={"_blank"}
+                rel={'norefferer'}
               >
-                <a
-                  href={'https://app.soul.sh'}
-                  target={"_blank"}
-                  rel={'norefferer'}
-                >
-                  {`Exchange`}
-                </a>
-              </h2>
-              {/* </p> */}
+                {`Exchange`}
+              </a>
+            </h2> */}
+            {/* </p> */}
             {/* </Link> */}
             <span className="icon">
               <img src="svg/right-arr.svg" alt="" className="fn__svg" />
@@ -132,7 +132,27 @@ const Index = () => {
           </div>
         </div>
       </div>
-      {/* About Section */}
+      <div
+        className="modal_content"
+        style={{
+          height: '100vh',
+          maxWidth: '720px',
+          display: 'block',
+          margin: '0 auto',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >        <iframe
+          height={'100%'}
+          width={'100%'}
+          src={'https://exchange.soulswap.finance/swap'}
+        />
+      </div>
+      {/* <iframe
+        height={'100%'}
+        width={'100%'}
+        src={'https://widget-integrations-squid.vercel.app/'}
+      /> */}
       <ServicesComponent />
 
       {/* !Hero Header */}

@@ -1,6 +1,6 @@
-import Link from "next/link";
-import Layout from "../src/layout/Layout";
-import PageBanner from "../src/layout/PageBanner";
+import Link from "next/link"
+import Layout from "../src/layout/Layout"
+import PageBanner from "../src/layout/PageBanner"
 
 const Roadmap = () => {
   return (
@@ -106,6 +106,6 @@ const Roadmap = () => {
         </div>
       </div>
     </Layout>
-  );
-};
-export default Roadmap;
+  )
+}
+export default Roadmap
