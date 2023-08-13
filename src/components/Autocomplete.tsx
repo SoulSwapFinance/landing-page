@@ -7,7 +7,7 @@ export default class Autocomplete extends Component {
     }
 
     handleChange = (event) => {
-        this.setState({value: event.target.value});
+        this.setState({ value: event.target.value });
     }
 
     onFocus = (event) => {
@@ -25,48 +25,42 @@ export default class Autocomplete extends Component {
         window.location.href = sanitizedInput;
     }
 
-   render(){
+    render() {
         return (
-
-            <form 
-                className={'autocomplete'}
-                onSubmit={this.handleSubmit}
+            <div
                 style={{
-                    // position: 'absolute',
-                    top: '163px',
-                    zIndex: 999999,
-                    height: '42px',
-                    left: '16px',
-                    right: '16px',
-                    background: '#FFFFFF', /* todo */
-                    boxShadow: '2px 2px 8px rgba(0, 0, 0, 0.25)', /* todo */
-                    borderRadius: '20px',
-                    paddingLeft: '16px',
-                    paddingRight: '16px',
-                    display: 'flex',
-                    border: '1px solid',
-                    borderColor: '#8A02FF'
+                    display: 'grid',
+                    justifyContent: 'row',
+                    // alignItems: 'center',
+                    width: '100%',
                 }}
+            >
+                <form
+                    className={'autocomplete'}
+                    onSubmit={this.handleSubmit}
                 >
-                <input
-                    autoCapitalize="none"
-                    type={'text'} 
-                    placeholder={'Search the Decentralized Web'} 
-                    className={'autocomplete-input'}
-                    value={this.state.value}
-                    onChange={this.handleChange} 
-                    onFocus={this.onFocus}
-                    style={{
-                        width: '100%',
-                        fontSize: '16px',
-                        outlineWidth: '0',
-                        border: '0px',
-                        justifyContent: 'center',
-                        textAlign: 'center',
-                        WebkitAppearance: 'none',
-                    }}
-                />
-            </form>
-        );
+                    <input
+                        autoCapitalize="none"
+                        type={'text'}
+                        placeholder={'Search the Decentralized Web'}
+                        className={'autocomplete-input'}
+                        value={this.state.value}
+                        onChange={this.handleChange}
+                        onFocus={this.onFocus}
+                        style={{
+                            width: '100%',
+                            fontSize: '16px',
+                            outlineWidth: '0',
+                            border: '2px solid',
+                            borderColor: '#8A02FF',
+                            justifyContent: 'center',
+                            textAlign: 'center',
+                            WebkitAppearance: 'none',
+                            marginBottom: '10px',
+                        }}
+                    />
+                </form>
+            </div>
+        )
     }
 }

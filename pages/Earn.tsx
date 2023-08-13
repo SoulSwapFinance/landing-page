@@ -1,15 +1,8 @@
 import React, { Component } from 'react'
 import Header from 'components/Header'
-// import Tabs from '../components/Tabs/'
 import Autocomplete from 'components/Autocomplete'
-import ExploreDapps from 'components/ExploreDapps'
 import Dapps from 'components/Dapps';
-import { soulDapps } from 'data/all-dapps'
-// import FeaturedDappsCarousel from 'components/FeaturedDappsCarousel/'
-// import VotedDappsCarousel from 'components/VotedDappsCarousel/'
-
-
-// import{trackEvent, ANALYTICS_EVENT_OPTS} from '../util/analytics'
+import { earnDapps } from 'data/all-dapps'
 
 const isMobile = {
     Android: function () {
@@ -32,10 +25,7 @@ const isMobile = {
     }
 };
 
-export default class Soul extends Component {
-    // componentDidMount() {
-    //   trackEvent(ANALYTICS_EVENT_OPTS.IMPRESSION);
-    // }
+export default class Earn extends Component {
 
     render() {
         return (
@@ -43,13 +33,13 @@ export default class Soul extends Component {
                 <Header />
                 <Autocomplete />
                 <div>
-                {   soulDapps.sort((a, b) => a.name.charCodeAt(0) - b.name.charCodeAt(0)).map( (dapp, i) => (
+                {   earnDapps.sort((a, b) => a.name.charCodeAt(0) - b.name.charCodeAt(0)).map( (dapp, i) => (
 
                     <Dapps 
-                        name={soulDapps[i].name} 
-                            url={soulDapps[i].url} 
-                            description={soulDapps[i].description} 
-                            icon={soulDapps[i].icon}
+                        name={earnDapps[i].name} 
+                            url={earnDapps[i].url} 
+                            description={earnDapps[i].description} 
+                            icon={earnDapps[i].icon}
                     />
                 ))}
                 </div>

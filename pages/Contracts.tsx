@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import Header from 'components/Header'
 // import Tabs from '../components/Tabs/'
 import Autocomplete from 'components/Autocomplete'
-import ExploreDapps from 'components/ExploreDapps'
+// import ExploreDapps from 'components/ExploreDapps'
 import Dapps from 'components/Dapps';
-import { earnDapps } from 'data/all-dapps'
+import { contractDapps } from 'data/all-dapps'
 // import FeaturedDappsCarousel from 'components/FeaturedDappsCarousel/'
 // import VotedDappsCarousel from 'components/VotedDappsCarousel/'
 
@@ -32,10 +32,7 @@ const isMobile = {
     }
 };
 
-export default class Earn extends Component {
-    // componentDidMount() {
-    //   trackEvent(ANALYTICS_EVENT_OPTS.IMPRESSION);
-    // }
+export default class Contracts extends Component {
 
     render() {
         return (
@@ -43,15 +40,15 @@ export default class Earn extends Component {
                 <Header />
                 <Autocomplete />
                 <div>
-                {   earnDapps.sort((a, b) => a.name.charCodeAt(0) - b.name.charCodeAt(0)).map( (dapp, i) => (
+                    {contractDapps.sort((a, b) => a.name.charCodeAt(0) - b.name.charCodeAt(0)).map((dapp, i) => (
 
-                    <Dapps 
-                        name={earnDapps[i].name} 
-                            url={earnDapps[i].url} 
-                            description={earnDapps[i].description} 
-                            icon={earnDapps[i].icon}
-                    />
-                ))}
+                        <Dapps
+                            name={contractDapps[i].name}
+                            url={contractDapps[i].url}
+                            description={contractDapps[i].description}
+                            icon={contractDapps[i].icon}
+                        />
+                    ))}
                 </div>
             </div>
         );

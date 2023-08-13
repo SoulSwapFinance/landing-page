@@ -63,6 +63,15 @@ const Footer = () => {
                         Links
                     </a>
                   </li>
+                  <li>
+                    <a 
+                      href="/Apps"
+                      // target={'_blank'}
+                      // rel={'noreferrer'}
+                    >
+                        Apps
+                    </a>
+                  </li>
                   {/* <li>
                     <Link href="/about">About</Link>
                   </li> */}
