@@ -145,7 +145,7 @@ const Index = () => {
       >        <iframe
           height={'100%'}
           width={'100%'}
-          src={'https://exchange.soulswap.finance/swap'}
+          src={'https://widget-integrations-squid.vercel.app'}
         />
       </div>
       {/* <iframe
