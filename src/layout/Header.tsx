@@ -81,7 +81,7 @@ const Header = () => {
               }}
             >
               <a
-                href={'https://exhange.soulswap.finance'}
+                href={'https://exchange.soulswap.finance'}
                 target={"_blank"}
                 rel={'norefferer'}
               >
