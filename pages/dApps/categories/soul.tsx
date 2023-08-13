@@ -40,8 +40,8 @@ export default class Soul extends Component {
         return (
             <div>
                 <Header />
-                <Autocomplete />
             {/* <Tabs> */}
+                <Autocomplete />
                 <div>
                     <Dapps />
                 </div>

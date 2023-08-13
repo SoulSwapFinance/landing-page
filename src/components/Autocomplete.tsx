@@ -1,31 +1,5 @@
-// .autocomplete {
-//     position: absolute;
-//     top: 163px;
-//     z-index: 999999;
-//     height: 42px;
-//     left: 16px;
-//     right: 16px;
-//     background: #FFFFFF; /* todo */
-//     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25); /* todo */
-//     border-radius: 20px;
-//     padding-left: 16px;
-//     padding-right: 16px;
-//     display: flex;
-// }
-
-// .autocomplete-input {
-//     width: 100%;
-//     font-size: 16px;
-//     outline-width: 0;
-//     border: 0px;
-//     justify-content: center;
-//     text-align: center;
-//     -webkit-appearance: none;
-// }
-
 import React, { Component } from 'react'
 import onUrlSubmit from '../utils'
-// import './index.css';
 
 export default class Autocomplete extends Component {
     state = {
@@ -45,17 +19,35 @@ export default class Autocomplete extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
         // @ts-ignore
-        const searchEngine = window.__mmSearchEngine || 'Google';
+        const searchEngine = "Google"
+        // const searchEngine = window.__mmSearchEngine || 'Google';
         const sanitizedInput = onUrlSubmit(this.state.value, searchEngine);
         window.location.href = sanitizedInput;
     }
 
    render(){
         return (
+
             <form 
                 className={'autocomplete'}
                 onSubmit={this.handleSubmit}
-            >
+                style={{
+                    // position: 'absolute',
+                    top: '163px',
+                    zIndex: 999999,
+                    height: '42px',
+                    left: '16px',
+                    right: '16px',
+                    background: '#FFFFFF', /* todo */
+                    boxShadow: '2px 2px 8px rgba(0, 0, 0, 0.25)', /* todo */
+                    borderRadius: '20px',
+                    paddingLeft: '16px',
+                    paddingRight: '16px',
+                    display: 'flex',
+                    border: '1px solid',
+                    borderColor: '#8A02FF'
+                }}
+                >
                 <input
                     autoCapitalize="none"
                     type={'text'} 
@@ -64,6 +56,15 @@ export default class Autocomplete extends Component {
                     value={this.state.value}
                     onChange={this.handleChange} 
                     onFocus={this.onFocus}
+                    style={{
+                        width: '100%',
+                        fontSize: '16px',
+                        outlineWidth: '0',
+                        border: '0px',
+                        justifyContent: 'center',
+                        textAlign: 'center',
+                        WebkitAppearance: 'none',
+                    }}
                 />
             </form>
         );

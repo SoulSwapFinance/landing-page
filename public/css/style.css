@@ -4840,3 +4840,28 @@ a.full_link{
 	}
   
   }
+
+  .autocomplete {
+    position: absolute;
+    top: 163px;
+    z-index: 999999;
+    height: 42px;
+    left: 16px;
+    right: 16px;
+    background: #FFFFFF; /* todo */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25); /* todo */
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+}
+
+.autocomplete-input {
+    width: 100%;
+    font-size: 16px;
+    outline-width: 0;
+    border: 0px;
+    justify-content: center;
+    text-align: center;
+    -webkit-appearance: none;
+}
