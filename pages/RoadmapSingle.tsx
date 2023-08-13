@@ -1,5 +1,5 @@
-import Link from "next/link";
-import Layout from "../src/layout/Layout";
+import Link from "next/link"
+import Layout from "../src/layout/Layout"
 
 const RoadmapSingle = () => {
   return (

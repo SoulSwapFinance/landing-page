@@ -1,5 +1,5 @@
-import Layout from "../src/layout/Layout";
-import PageBanner from "../src/layout/PageBanner";
+import Layout from "../src/layout/Layout"
+import PageBanner from "../src/layout/PageBanner"
 
 const About = () => {
   return (

@@ -1,4 +1,4 @@
-// import Link from "next/link";
+import Link from "next/link"
 
 const ServicesComponent = () => {
   return (
@@ -190,13 +190,13 @@ const ServicesComponent = () => {
                       borderColor: '#8A02FF',
                     }}
                   >
-                    <a
-                  href={'https://app.soul.sh/crosschain'}
+                    <Link
+                  href={'/Crosschain'}
                   target={"_blank"}
                   rel={'norefferer'}
                 >
                     {`Crosschain`}
-                  </a>
+                  </Link>
                   </h3>
                   <p className="fn_desc fn_animated_text"
                     style={{
