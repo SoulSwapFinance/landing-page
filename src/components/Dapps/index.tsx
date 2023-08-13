@@ -19,7 +19,7 @@ export default function Dapp(dapp: Dapp) {
     return (
         <Link
             href={url}
-            onClick={() => dapp.url}
+            // onClick={() => dapp.url}
             style={{
                 display: 'flex',
                 flex: 1,

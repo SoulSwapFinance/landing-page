@@ -29,7 +29,7 @@ export default function DappCategory(category: Category) {
         return (
             <Link
                 href={url}
-                onClick={() => category.url}
+                // onClick={() => category.url}
                 style={{
                     display: 'flex',
                     flex: 1,
