@@ -132,7 +132,7 @@ const Index = () => {
           </div>
         </div>
       </div>
-      <div
+      {/* <div
         className="modal_content"
         style={{
           height: '100vh',
@@ -147,7 +147,7 @@ const Index = () => {
           width={'100%'}
           src={'https://widget-integrations-squid.vercel.app'}
         />
-      </div>
+      </div> */}
       {/* <iframe
         height={'100%'}
         width={'100%'}
