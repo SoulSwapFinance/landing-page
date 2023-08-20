@@ -11,32 +11,25 @@ const swap = () => {
     // const { address, isConnecting, isDisconnected } = useAccount();
 
     return (
-        <Layout pageName={"Links"}>
-            <PageBanner pageName={"Links"} />
-            <div className="soul_fn_aboutpage">
-                <section id="links">
-                    <div className="container">
-                        <div
-                            className="modal_content"
-                            style={{
-                                height: '100vh',
-                                maxWidth: '720px',
-                                display: 'block',
-                                margin: '0 auto',
-                                justifyContent: 'center',
-                                alignItems: 'center',
-                            }}
-                        >
-                            <iframe
-                                height={'100%'}
-                                width={'100%'}
-                                src={'https://links.soulswap.finance'}
-                            />
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </Layout>
+        <div className="container">
+        <div
+            className="modal_content"
+            style={{
+                height: '100vh',
+                maxWidth: '100%',
+                display: 'block',
+                margin: '0 auto',
+                justifyContent: 'center',
+                alignItems: 'center',
+            }}
+        >
+            <iframe
+                height={'100%'}
+                width={'100%'}
+                src={'https://links.soulswap.finance'}
+            />
+        </div>
+    </div>
     )
 }
 
