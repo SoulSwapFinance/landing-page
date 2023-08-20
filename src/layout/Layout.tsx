@@ -33,7 +33,7 @@ const Layout = ({ children, pageName }) => {
         
         <link property="twitter:card" content="summary_large_image" />
         <link property="twitter:title" content="SoulSwap Finance" />
-        <link property="twitter:description" content="Forever & Fucking Always" />
+        <link property="twitter:description" content="Swap, earn, limit, bridge and launch on one community-driven ecosystem" />
         <link property="twitter:image" content="https://soul.sh/images/soulswap-cover.png" />
 
         {/* <link property="twitter:card" content="summary_large_image" /> */}
