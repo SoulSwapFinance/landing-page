@@ -63,7 +63,7 @@ const Footer = () => {
                         Links
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a 
                       href="/Apps"
                       // target={'_blank'}
@@ -71,7 +71,7 @@ const Footer = () => {
                     >
                         Apps
                     </a>
-                  </li>
+                  </li> */}
                   {/* <li>
                     <Link href="/about">About</Link>
                   </li> */}
