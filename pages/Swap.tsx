@@ -11,10 +11,10 @@ const Exchange = () => {
     // const { address, isConnecting, isDisconnected } = useAccount();
 
     return (
-        <Layout pageName={"Exchange"}>
-            <PageBanner pageName={"Exchange"} />
+        <Layout pageName={"Links"}>
+            <PageBanner pageName={"Links"} />
             <div className="soul_fn_aboutpage">
-                <section id="mint">
+                <section id="links">
                     <div className="container">
                         <div
                             className="modal_content"
@@ -30,7 +30,7 @@ const Exchange = () => {
                             <iframe
                                 height={'100%'}
                                 width={'100%'}
-                                src={'https://exchange.soulswap.finance/swap'}
+                                src={'https://links.soulswap.finance'}
                             />
                         </div>
                     </div>
