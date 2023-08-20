@@ -7,7 +7,7 @@ import PageBanner from "../src/layout/PageBanner"
 //     useAccount
 // } from 'wagmi'
 
-const Exchange = () => {
+const swap = () => {
     // const { address, isConnecting, isDisconnected } = useAccount();
 
     return (
@@ -40,4 +40,4 @@ const Exchange = () => {
     )
 }
 
-export default Exchange
+export default swap
