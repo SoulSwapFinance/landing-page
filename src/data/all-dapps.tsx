@@ -25,14 +25,14 @@ export const soulDapps: Dapps[] = [
 
 export const contractDapps: Dapps[] = [
     {
-        name: 'Airdrop',
+        name: 'SoulPower | Fantom',
         url: 'https://ftmscan.com/address', /* todo */
-        description: 'Contains the SOUL tokens ready to be claimed by the eligible recipients.',
-        icon: '/images/dapps/package.png'
+        description: 'The official token for SOUL, which represents your voting power and stake in the DAO Treasury.',
+        icon: '/images/dapps/stakeholder.png'
     },
     {
-        name: 'SoulToken',
-        url: 'https://ftmscan.com/address', /* todo */
+        name: 'SoulPower | Avalanche',
+        url: 'https://snowtrace.io/address', /* todo */
         description: 'The official token for SOUL, which represents your voting power and stake in the DAO Treasury.',
         icon: '/images/dapps/stakeholder.png'
     },
@@ -43,14 +43,14 @@ export const contractDapps: Dapps[] = [
         icon: '/images/dapps/mining-cart.png'
     },
     {
-        name: 'Treasury',
+        name: 'SOUL-FTM LP',
         url: 'https://ftmscan.com/address', /* todo */
-        description: 'Treasury contract, which is a multisignatory smart contract containing our Treasury, which belongs to the SOUL Community',
-        icon: '/images/dapps/treasury.png'
+        description: 'The LP token that represents the SOUL-FTM pair. Liquidity providers recieve thier proportionate share of the trading fees generated from trades in the pool. This token also receieves a yield BOOST.',
+        icon: '/images/dapps/unicorn.png' /* todo */
     },
     {
-        name: 'SOUL-LP SOUL-FTM LP',
-        url: 'https://ftmscan.com/address', /* todo */
+        name: 'SOUL-AVAX LP',
+        url: 'https://snowtrace.io/address', /* todo */
         description: 'The LP token that represents the SOUL-FTM pair. Liquidity providers recieve thier proportionate share of the trading fees generated from trades in the pool. This token also receieves a yield BOOST.',
         icon: '/images/dapps/unicorn.png' /* todo */
     }
@@ -59,7 +59,7 @@ export const contractDapps: Dapps[] = [
 export const communityDapps: Dapps[] = [
     {
         name: 'Chat on Discord',
-        url: 'https://discord.gg', /* todo */
+        url: 'https://discord.gg/SoulSwap', /* todo */
         description: 'Join in on the discussions with our Discord Community. We have Channels dedicated to topics such as speculation and trading, governance proposals, announcements, and more.',
         icon: '/images/dapps/dis-cord-black.png'
     },
@@ -92,7 +92,7 @@ export const communityDapps: Dapps[] = [
 export const tradingDapps: Dapps[] = [
     {
         name: 'SoulSwap DEX',
-        url: 'https://app.soulswap.finance/#/swap',
+        url: 'https://app.soulswap.finance/swap',
         description: 'Exchange assets in a decentralized manner and provide liquidity for your share in exchange fees, all on our multi-chain decentralized exchange.',
         icon: '/images/dapps/deploy.png'
     },
@@ -111,14 +111,14 @@ export const tradingDapps: Dapps[] = [
         icon: '/images/dapps/coinmarketcap.com.png'
     },
     {
-        name: 'Trading Room',
+        name: 'Dex Screener',
         url: 'https://t.me/soulswapdefi', // todo: update
         description: 'Visit the historical price and liquidity for the SOUL on Uniswap, the decentralized exchange.',
-        icon: '/images/dapps/telegram.png'
+        icon: '/images/dapps/exchanging.png'
     },
     {
         name: 'SoulSwap Charts',
-        url: 'https://info.soulswap.finance/',
+        url: 'https://app.soulswap.finance/analytics',
         description: 'Visit the historical price and liquidity for SOUL on our multi-chain decentralized exchange.',
         icon: '/images/dapps/exchanging.png'
     }
@@ -126,26 +126,26 @@ export const tradingDapps: Dapps[] = [
 
 export const earnDapps: Dapps[] = [
     {
-        name: 'Stream Claim',
-        url: 'https://app.soulswap.finance/streams',
+        name: 'Soul Pay',
+        url: 'https://pay.soulswap.finance',
         description: 'Claim your SOUL Stream',
         icon: '/images/dapps/gift-box.png'
     },
     {
-        name: 'Airdrop Claim',
-        url: 'https://app.soulswap.finance/airdrop',
-        description: 'Claim your SOUL Airdrop',
-        icon: '/images/dapps/gift-box.png'
-    },
-    {
-        name: 'Liquidity Mine',
+        name: 'Soul Farms',
         url: 'https://app.soulswap.finance/farms',
         description: 'Provide liquidity on our exchange and recieve rewards paid out in SOUL for participating in our network.',
         icon: '/images/dapps/mining.png'
     },
     {
-        name: 'Soul Staking',
-        url: 'https://app.soulswap.finance/stake',
+        name: 'DeFarms',
+        url: 'https://app.soulswap.finance/defarms',
+        description: 'Decentralized farms.',
+        icon: '/images/dapps/mining.png'
+    },
+    {
+        name: 'AutoStake',
+        url: 'https://app.soulswap.finance/autostake',
         description: 'Single asset staking (SAS) DApp designed to enable users to deposit SOUL to be rewarded SOUL and tokens from newly launched projects.',
         icon: '/images/dapps/mining-cart.png'
     },
