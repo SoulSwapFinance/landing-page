@@ -23,10 +23,10 @@ export default function Header () {
                 <Image
                     src={'/images/soulswap-cover.png'} className={'header bg-img'}
                     alt={'background'}
-                    height={'720px'}
-                    width={'1200px'}
+                    height={'624px'}
+                    width={'1248px'}
                 />
-        { router.pathname != ('/Apps') &&
+        {/* { router.pathname != ('/Apps') &&
             <div
                 style={{ 
                     display: 'flex',
@@ -40,7 +40,7 @@ export default function Header () {
             >
             {'View All Categories'}
         </div>
-    }
+        } */}
             </div>
         );
     // }

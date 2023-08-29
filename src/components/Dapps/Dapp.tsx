@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-// import { Link } from "react-router-dom";
 import Link from 'next/link'
 import Image from 'next/image'
+// import { Link } from "react-router-dom"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import Layout from 'layout/Layout';
-
+// import Layout from 'layout/Layout'
 
 interface Dapp {
     name: string;
