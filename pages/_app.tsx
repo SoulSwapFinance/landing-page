@@ -20,7 +20,17 @@ function MyApp({ Component, pageProps }) {
   return (
     <WagmiConfig config={config}>
       <ConnectKitProvider debugMode>
-
+          <Head>
+           <title>SoulSwap</title>
+              <meta name="description" content="SoulSwap is an AMM exchange, part of Soul Protocol, which offers a full suite of DeFi tools." />
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta name="twitter:image" content="https://soulswap.finance/images/soulswap-cover.png" />
+              <meta name="twitter:site" content="@SoulSwapFinance" />
+              <meta id="og:image" property="og:image" content="https://soulswap.finance/images/soulswap-cover.png" />
+              <meta id="og:image:type" property="og:image:type" content="image/png" />
+              <meta id="og:image:type" property="og:image:type" content="630" />
+              <meta id="og:image:width" property="og:image:width" content="1200" />
+          </Head>
         <Fragment>
           {/* <!-- Google Fonts --> */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
