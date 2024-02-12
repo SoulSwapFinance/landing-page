@@ -31,10 +31,11 @@ const SocialsBanner = () => {
                             style={{
                                 display: 'flex',
                                 flexDirection: 'row',
-                                justifyContent: 'center',
-                                alignItems: 'center',
-                                gap: '24px',
-                                margin: '8px',
+                                width: '80%',
+                                justifyContent: 'space-between',
+                                // alignItems: 'center',
+                                // gap: '24px',
+                                // margin: '12px',
                                 padding: '12px',
                                 // border: '1px solid',
                                 // borderRadius: '12px',
@@ -65,8 +66,8 @@ const SocialsBanner = () => {
                                 <Image
                                     src="/images/dapps/twitter.png"
                                     alt="Twitter Logo"
-                                    width={36}
-                                    height={36}
+                                    width={32}
+                                    height={32}
                                 />
                                 {/* { `X (Twitter)` } */}
                             </a>
@@ -95,8 +96,8 @@ const SocialsBanner = () => {
                                 <Image
                                     src="/images/dapps/discord-color.png"
                                     alt="Discord Logo"
-                                    width={36}
-                                    height={36}
+                                    width={32}
+                                    height={32}
                                 />
                                 {/* { `Discord` } */}
                             </a>
@@ -124,8 +125,8 @@ const SocialsBanner = () => {
                                 <Image
                                     src="/images/dapps/telegram.png"
                                     alt="Telegram Logo"
-                                    width={36}
-                                    height={36}
+                                    width={32}
+                                    height={32}
                                 />
                             </a>
                                 {/* { `Telegram` } */}
@@ -153,8 +154,8 @@ const SocialsBanner = () => {
                                 <Image
                                     src="/images/dapps/coingecko-color.png"
                                     alt="Coingecko Logo"
-                                    width={36}
-                                    height={36}
+                                    width={32}
+                                    height={32}
                                 />
                             </a>
                                 {/* { `CoinGecko` } */}
@@ -182,8 +183,8 @@ const SocialsBanner = () => {
                                 <Image
                                     src="/images/dapps/app-store-blue.png"
                                     alt="App Store Logo"
-                                    width={36}
-                                    height={36}
+                                    width={32}
+                                    height={32}
                                 />
                             </a>
                                 {/* { `CoinGecko` } */}
