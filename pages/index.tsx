@@ -3,7 +3,7 @@ import ServicesComponent from "../src/components/ServicesComponent"
 import Timeline from "../src/components/Timeline"
 // import Link from 'next/link'
 import Layout from "../src/layout/Layout"
-import Socials from "./Socials";
+// import Socials from "./Socials";
 // import Image from 'next/image'
 
 const Index = () => {
