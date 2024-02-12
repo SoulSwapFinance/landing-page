@@ -1,8 +1,8 @@
 import ServicesComponent from "../src/components/ServicesComponent"
 import Timeline from "../src/components/Timeline"
-import Link from 'next/link'
+// import Link from 'next/link'
 import Layout from "../src/layout/Layout"
-import Image from 'next/image'
+// import Image from 'next/image'
 
 const Index = () => {
   return (
