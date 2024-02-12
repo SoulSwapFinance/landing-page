@@ -1,8 +1,10 @@
+import SocialsBanner from "components/SocialsBanner";
 import ServicesComponent from "../src/components/ServicesComponent"
 import Timeline from "../src/components/Timeline"
-import Link from 'next/link'
+// import Link from 'next/link'
 import Layout from "../src/layout/Layout"
-import Image from 'next/image'
+// import Socials from "./Socials";
+// import Image from 'next/image'
 
 const Index = () => {
   return (
@@ -20,6 +22,7 @@ const Index = () => {
         </div>
         {/* Overlay (of hero header) */}
         <div className="hero_content">
+          <SocialsBanner />
           <div className="container">
             <div className="content">
               {/* <h2 className="fn_title" title="Soul"> */}

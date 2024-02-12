@@ -66,27 +66,66 @@ const Header = () => {
             </a> */}
              <h2
               style={{
-                display: 'grid',
+                display: 'flex',
+                flexDirection: 'row',
+                gap: '0.25rem',
                 alignItems: 'center',
                 textAlign: 'center',
-                border: '1px solid',
-                borderRadius: '10px',
-                padding: '8px',
+                // border: '1px solid',
+                // borderRadius: '10px',
+                // padding: '8px',
                 // color: '#8A02FF',
                 fontFamily: 'Cursive',
                 fontSize: '22px',
                 margin: '10px',
                 // marginTop: '10px',
-                borderColor: '#8A02FF',
+                // borderColor: '#8A02FF',
               }}
             >
               <a
                 href={'https://exchange.soulswap.finance'}
                 target={"_blank"}
                 rel={'norefferer'}
+                style={{
+                  display: 'flex',
+                  flexDirection: 'row',
+                  gap: '2rem',
+                  alignItems: 'center',
+                  textAlign: 'center',
+                  border: '1px solid',
+                  borderRadius: '10px',
+                  padding: '6px',
+                  // color: '#8A02FF',
+                  fontFamily: 'Cursive',
+                  fontSize: '18px',
+                  // marginTop: '10px',
+                  borderColor: '#8A02FF',
+                }}
               >
-                {`Open App`}
+                {`Open dApp`}
               </a>
+              {/* <a
+                href={'/socials'}
+                // href={'https://exchange.soulswap.finance'}
+                // target={"_blank"}
+                // rel={'norefferer'}
+                style={{
+                  display: 'flex',
+                  flexDirection: 'row',
+                  gap: '2rem',
+                  alignItems: 'center',
+                  textAlign: 'center',
+                  border: '1px solid',
+                  borderRadius: '10px',
+                  padding: '6px',
+                  // color: '#8A02FF',
+                  fontFamily: 'Cursive',
+                  fontSize: '18px',
+                  // marginTop: '10px',
+                  borderColor: '#8A02FF',                }}
+              >
+                {`Socials`}
+              </a> */}
             </h2>
             {/* <WalletConnect /> */}
           </div>

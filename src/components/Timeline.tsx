@@ -27,7 +27,7 @@ const Timeline = () => {
               // borderColor: '#8A02FF',
             }}
           >
-            {'Our Accomplishments'}
+            {'Our Roadmap'}
         </h3> 
         <div className="line">
           <span />
@@ -244,6 +244,37 @@ const Timeline = () => {
                 </div>
               </div>
             </li>
+            <li className={`timeline_item ${activeClass(6)}`} data-index={6}>
+              <div className="t_item">
+                <div className="t_item_info">
+                  <p className="fn_date">
+                  <span>October 2023</span>
+                  </p>
+                  <h3 className="fn_title">
+                    <a
+                      href="https://soulswapfinance.medium.com/introducing-defarms-d6f6c9ac3fa6"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Mobile App Launch
+                    </a>
+                  </h3>
+                  <p className="fn_desc">
+                  We will be launching our mobile application on the App Store and Google Play Store. This will enable our users to access our platform on the go.
+                  </p>
+                  <p className="fn_read">
+                      <a
+                        href="https://docs.soulswap.finance/docs/user-guides/our-utility/ios-mobile-premium"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="soul_fn_button only_text"
+                      >
+                        <span className="text">Read More</span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </li>
             
           </ul>
         </div>
@@ -325,6 +356,15 @@ const Timeline = () => {
                     <span
                       className="circle"
                       style={{ filter: `brightness(${filter(5)}%)` }}
+                    />
+                  </a>
+                </li>
+                <li className={activeClass(6)}>
+                  <a onClick={() => onClick(6)}>
+                    <span className="text">10.2023</span>
+                    <span
+                      className="circle"
+                      style={{ filter: `brightness(${filter(6)}%)` }}
                     />
                   </a>
                 </li>
