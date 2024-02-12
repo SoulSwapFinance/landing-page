@@ -22,16 +22,18 @@ const Index = () => {
         </div>
         {/* Overlay (of hero header) */}
         <div className="hero_content">
-          <SocialsBanner />
           <div className="container">
             <div className="content">
               {/* <h2 className="fn_title" title="Soul"> */}
-              <h2
+          <SocialsBanner />
+              <h1
                 style={{
-                  display: 'flex',
+                  display: 'grid',
                   // border: '1px solid',
                   // borderRadius: '10px',
-                  padding: '10px',
+                  justifyContent: 'center',
+                  width: '100%',
+                  padding: '8px',
                   color: '#8A02FF',
                   fontFamily: 'Cursive',
                   fontSize: '48px',
@@ -39,7 +41,7 @@ const Index = () => {
                 }}
               >
                 {`SoulSwap Finance`}
-              </h2>
+              </h1>
               {/* <img src="/img/text/soulswap-finance.png"
                   alt=""
                   height={64}
