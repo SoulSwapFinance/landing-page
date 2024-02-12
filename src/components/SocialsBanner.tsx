@@ -14,6 +14,7 @@ const SocialsBanner = () => {
     const TWITTER_URL = 'https://x.com/SoulSwapFinance'
     const TELEGRAM_URL = 'https://t.me/SoulSwapDeFi'
     const COINGECKO_URL = 'https://www.coingecko.com/coins/soul-swap'
+    const APP_STORE_URL = 'https://apps.apple.com/us/app/soulwallet-defi-portal/id6469735252'
     // const FORUM_URL = 'https://forum.soulswap.finance'
     // const ANNOUNCEMENTS_URL = 'https://t.me/s/SoulSwapNews'
 
@@ -152,6 +153,35 @@ const SocialsBanner = () => {
                                 <Image
                                     src="/images/dapps/coingecko-color.png"
                                     alt="Coingecko Logo"
+                                    width={36}
+                                    height={36}
+                                />
+                            </a>
+                                {/* { `CoinGecko` } */}
+                            </div>
+                            <div
+                                style={{
+                                    display: 'grid',
+                                    justifyContent: 'center',
+                                    width: '100%',
+                                }}
+                            >
+                            <a
+                                href={APP_STORE_URL} // √
+                                target="_blank"
+                                style={{
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    justifyContent: 'center',
+                                    alignItems: 'center',
+                                    gap: '12px',
+                                    fontSize: '18px',
+                                    color: '#8A02FF',
+                                }}
+                            >
+                                <Image
+                                    src="/images/dapps/app-store-blue.png"
+                                    alt="App Store Logo"
                                     width={36}
                                     height={36}
                                 />
