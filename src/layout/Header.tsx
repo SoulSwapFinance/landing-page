@@ -102,9 +102,9 @@ const Header = () => {
                   borderColor: '#8A02FF',
                 }}
               >
-                {`Swap`}
+                {`Open dApp`}
               </a>
-              <a
+              {/* <a
                 href={'/socials'}
                 // href={'https://exchange.soulswap.finance'}
                 // target={"_blank"}
@@ -125,7 +125,7 @@ const Header = () => {
                   borderColor: '#8A02FF',                }}
               >
                 {`Socials`}
-              </a>
+              </a> */}
             </h2>
             {/* <WalletConnect /> */}
           </div>
